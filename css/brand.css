@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+/*--- Section ---*/
+
+section hr {
+    margin-bottom: 8rem !important;
+}
+
+section {
+    margin-bottom: 8rem;
+}
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    section hr {
+        margin-bottom: 2rem !important;
+    }
+
+    section {
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    section hr {
+        margin-bottom: 4rem !important;
+    }
+
+    section {
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    section hr {
+        margin-bottom: 4rem !important;
+    }
+
+}
+
+/*--- END / Section ---*/
+
+/*--- NavTabs ---*/
+
+#nav-tabs {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+#nav-tabs .nav-item .nav-link {
+    color: #747474;
+    font-size: 1.5rem;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#nav-tabs .nav-item .active {
+    border: none !important;
+    font-weight: 600;
+    color: #222;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    .container-fluid {
+        padding: 0 1rem !important;
+    }
+
+    #nav-tabs {
+        margin-top: 5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    #nav-tabs .nav-link {
+        font-size: 0.75rem !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    .container-fluid {
+        padding: 0 2rem !important;
+    }
+
+    #nav-tabs {
+        margin-top: 6rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    #nav-tabs .nav-item .nav-link {
+        font-size: 1rem !important;
+        padding: 0.75rem 1rem !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .container-fluid {
+        padding: 0 2.5rem !important;
+    }
+
+    #nav-tabs {
+        margin-top: 6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    #nav-tabs .nav-item .nav-link {
+        font-size: 1.25rem !important;
+        padding: 0.75rem 1rem !important;
+    }
+
+}
+
+/*--- Brand Section ---*/
+
+.brand-content {
+    margin-bottom: 8rem;
+}
+
+#nav-filler h1,
+#nav-filler h2,
+#nav-cosmetic h1,
+#nav-cosmetic h2,
+#nav-booster h1,
+#nav-booster h2 {
+    margin-bottom: 3rem;
+}
+
+#nav-filler p,
+#nav-cosmetic p,
+#nav-booster p {
+    margin-bottom: 1.5rem !important;
+    line-height: 1.75;
+}
+
+#nav-booster p br {
+    display: none;
+}
+
+#nav-filler p:last-child,
+#nav-cosmetic p:last-child,
+#nav-booster p:last-child {
+    margin-bottom: 0rem !important;
+}
+
+.filler-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(9 / 16 * 100%);
+    background: url('/image/info_filler_img_.png') center center / cover no-repeat;
+}
+
+.cosmetic-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(3 / 3 * 100%);
+    background: url('/image/info_cosmetic_img.png') center center / cover no-repeat;
+}
+
+.booster-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(9 / 16 * 100%);
+    background: url('/image/info_booster_img.png') center center / cover no-repeat;
+}
+
+.brand-content ul li {
+    list-style: square;
+    color: #747474;
+    margin-left: 1.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    .brand-content {
+        margin-bottom: 2rem;
+    }
+
+    .brand-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #nav-filler h1,
+    #nav-filler h2,
+    #nav-cosmetic h1,
+    #nav-cosmetic h2,
+    #nav-booster h1,
+    #nav-booster h2 {
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler p,
+    #nav-cosmetic p,
+    #nav-booster p {
+        margin-bottom: 1rem !important;
+        line-height: 1.5;
+    }
+
+    #nav-booster p br {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px),
+(min-width: 1024px) and (max-width: 1280px) {
+
+    .brand-content {
+        margin-bottom: 4rem;
+    }
+
+    #nav-filler h1,
+    #nav-filler h2,
+    #nav-cosmetic h1,
+    #nav-cosmetic h2,
+    #nav-booster h1,
+    #nav-booster h2 {
+        margin-bottom: 2rem;
+    }
+
+    #nav-filler p,
+    #nav-cosmetic p,
+    #nav-booster p {
+        margin-bottom: 2rem !important;
+    }
+
+}
+
+/*--- END / Dermal Filler Info---*/
+
+.product-link {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.product-item h4 {
+    font-weight: 600 !important;
+    margin-bottom: 2rem;
+}
+
+.product-item h5 {
+    font-weight: 400 !important;
+    margin-bottom: 0rem;
+}
+
+.product-item h4,
+.product-item h5 {
+    color: #fff !important;
+}
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    .product-link {
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-item h4 {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    .product-link {
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-item h4 {
+        margin-bottom: 1rem;
+    }
+
+    .product-item h4,
+    .product-item h5 {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+/*--- END / Brand Section ---*/
