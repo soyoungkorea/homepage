@@ -1,0 +1,142 @@
+/* FOOTER */
+
+footer {
+    padding: 3rem 0 !important;
+    background-color: #222;
+}
+
+footer .company {
+    font-weight: 600;
+    margin-bottom: 1rem !important;
+}
+
+footer .footer-content {
+    margin-bottom: 1rem !important;
+}
+
+footer p,
+footer a {
+    font-size: 1rem !important;
+    color: #fff !important;
+    margin-bottom: 0;
+}
+
+footer span {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    color: #e5e5e5;
+}
+
+.copyright {
+    color: #747474 !important;
+}
+
+.nav-scroll {
+    background-color: #005cb9 !important;
+    box-shadow: 5px -1px 12px -5px black !important;
+}
+
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    footer .company {
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    footer .footer-content {
+        margin-bottom: 1rem !important;
+    }
+
+    footer p,
+    footer a {
+        font-size: 0.75rem !important;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+        font-weight: lighter;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .footer-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .copyright {
+        color: #747474 !important;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    footer .company {
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    footer .footer-content {
+        margin-bottom: 1rem !important;
+    }
+
+    footer p,
+    footer a {
+        font-size: 0.75rem !important;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+        font-weight: lighter;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .footer-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .copyright {
+        color: #747474 !important;
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    footer .company {
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .footer-content {
+        margin-bottom: 1rem !important;
+    }
+
+    footer p,
+    footer a {
+        font-size: 1.25rem !important;
+    }
+
+    footer span {
+        font-size: 1.25rem;
+        font-weight: lighter;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    footer .footer-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .copyright {
+        color: #747474 !important;
+    }
+
+}

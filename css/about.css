@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
-/*--- Section ---*/
-
-section hr {
-    margin-bottom: 8rem !important;
-}
-
-section {
-    margin-bottom: 8rem;
-}
-
-/*--- END / Section ---*/
-
-/*--- NavTabs ---*/
+/* NAV TABS */
 
 #nav-tabs {
     margin-top: 8rem;
@@ -23,105 +11,36 @@ section {
     border: none !important;
 }
 
+#nav-tabs .nav-item {
+    border: none !important;
+}
+
 #nav-tabs .nav-item .nav-link {
     color: #747474;
     font-size: 1.5rem;
-    padding: 0 !important;
-    margin: 0 !important;
+    -webkit-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    transition: 0.1s all ease;
 }
 
-#nav-tabs .nav-item .active {
-    border: none !important;
-    font-weight: 600;
-    color: #222;
-    text-decoration: underline;
-    text-underline-position: under;
+#nav-tabs .nav-item .active.active {
+    color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    section hr {
-        margin-bottom: 2rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-    .container-fluid {
-        padding: 0 1rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 5rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-link {
-        font-size: 0.75rem !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-    .container-fluid {
-        padding: 0 2rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    .container-fluid {
-        padding: 0 2.5rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 2rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1.25rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-
-}
-
-/*--- END / NavTabs ---*/
-
-/*--- Overview Container ---*/
-
+/* OVERVIEW CONTAINER */
 .about-content {
     margin-bottom: 8rem;
 }
 
+.about-content:last-child {
+    margin-bottom: 0;
+}
+
 #nav-overview p {
-    margin-bottom: 1.5rem !important;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
     line-height: 1.75;
+    color: #747474;
 }
 
 .about-img {
@@ -131,76 +50,29 @@ section {
     background: url('/image/slide_02.png') center center / cover no-repeat;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    .about-content {
-        margin-bottom: 2rem;
-    }
-
-    #nav-overview p {
-        margin-bottom: 1rem !important;
-        line-height: 1.5;
-    }
-
-    #nav-overview p:last-child {
-        margin-bottom: 0rem !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    .about-content {
-        margin-bottom: 4rem;
-    }
-
-    #nav-overview p {
-        margin-bottom: 2rem !important;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    .about-content {
-        margin-bottom: 4rem;
-    }
-
-    #nav-overview p {
-        margin-bottom: 2rem !important;
-    }
-
-}
-
-/*--- END / Overview Container ---*/
-
-
-/*--- History Container ---*/
-
-#nav-history p {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-#nav-history .content-remark {
-    font-size: 1.25rem !important;
-}
-
-.content {
-    padding: 2rem 2rem;
-    background-color: #F2F2F2;
-    border-radius: 0.5rem;
-    box-shadow: 0px 4px 10px -8px black !important;
-}
-
-.timeline {
+/* HISTORY CONTAINER */
+#nav-history .timeline {
     position: relative;
     width: 100%;
-    margin: 0 !important;
 }
 
-.timeline::after {
+#nav-history .timeline h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#nav-history .timeline p {
+    font-size: 1.5rem;
+    color: #747474;
+    margin-bottom: 0;
+}
+
+#nav-history .timeline .content-remark {
+    font-size: 1.25rem;
+}
+
+#nav-history .timeline::after {
     content: '';
     position: absolute;
     width: 4px;
@@ -211,13 +83,13 @@ section {
     margin-left: -2px;
 }
 
-.timeline-container {
+#nav-history .timeline-container {
     position: relative;
     background-color: inherit;
     width: 50%;
 }
 
-.timeline-container::after {
+#nav-history .timeline-container::after {
     content: '';
     position: absolute;
     width: 1.5rem;
@@ -230,17 +102,17 @@ section {
     z-index: 1;
 }
 
-.dot-left {
+#nav-history .timeline .dot-left {
     left: 0;
     padding-right: 2rem;
 }
 
-.dot-right {
+#nav-history .timeline .dot-right {
     left: 50%;
     padding-left: 2rem;
 }
 
-.dot-left::before {
+#nav-history .timeline .dot-left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -253,7 +125,7 @@ section {
     border-color: transparent transparent transparent #F2F2F2;
 }
 
-.dot-right::before {
+#nav-history .timeline .dot-right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -266,168 +138,32 @@ section {
     border-color: transparent #F2F2F2 transparent transparent;
 }
 
-.dot-right::after {
+#nav-history .timeline .dot-right::after {
     left: -0.75rem;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    #nav-history p {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    #nav-history .content-remark {
-        font-size: 0.75rem !important;
-    }
-
-    .content {
-        padding: 0.75rem 0.75rem;
-        box-shadow: 0px 4px 8px -8px black !important;
-    }
-
-    .timeline::after {
-        left: 0.65rem;
-    }
-
-    .timeline-container {
-        width: 100%;
-        padding-left: 2.5rem !important;
-        margin-bottom: 1rem;
-    }
-
-    .timeline-container:last-child {
-        margin-bottom: 0rem;
-    }
-
-    .timeline-container::after {
-        left: 0;
-        top: 2rem;
-        width: 1.25rem;
-        height: 1.25rem;
-    }
-
-    .dot-left {
-        left: 0rem;
-        padding-right: 0;
-    }
-
-    .dot-right {
-        left: 0rem;
-        padding-left: 0;
-    }
-
-    .dot-left::before {
-        top: 2rem;
-        width: 0;
-        z-index: 1;
-        left: 2rem;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #F2F2F2 transparent transparent;
-    }
-
-    .dot-right::before {
-        top: 2rem;
-        width: 0;
-        z-index: 1;
-        left: 2rem;
-        border: medium solid #F2F2F2;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #F2F2F2 transparent transparent;
-    }
-
+#nav-history .timeline-container .content {
+    padding: 2rem 2rem;
+    background-color: #F2F2F2;
+    border-radius: 0.5rem;
 }
 
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    #nav-history p {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    #nav-history .content-remark {
-        font-size: 1.25rem !important;
-    }
-
-    .content {
-        padding: 1.5rem 2rem;
-        box-shadow: 0px 4px 8px -8px black !important;
-    }
-
-    .timeline::after {
-        left: 0.65rem;
-    }
-
-    .timeline-container {
-        width: 100%;
-        padding-left: 2.5rem !important;
-        margin-bottom: 1rem;
-    }
-
-    .timeline-container:last-child {
-        margin-bottom: 0rem;
-    }
-
-    .timeline-container::after {
-        left: 0;
-        top: 2rem;
-        width: 1.25rem;
-        height: 1.25rem;
-    }
-
-    .dot-left {
-        left: 0rem;
-        padding-right: 0;
-    }
-
-    .dot-right {
-        left: 0rem;
-        padding-left: 0;
-    }
-
-    .dot-left::before {
-        top: 2rem;
-        width: 0;
-        z-index: 1;
-        left: 2rem;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #F2F2F2 transparent transparent;
-    }
-
-    .dot-right::before {
-        top: 2rem;
-        width: 0;
-        z-index: 1;
-        left: 2rem;
-        border: medium solid #F2F2F2;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent #F2F2F2 transparent transparent;
-    }
-
-}
-
-/*--- END / History Container ---*/
-
-
-
-
-/*--- ButtonTabs ---*/
+/* BUTTON TABS */
 #btn-tabs {
     margin-bottom: 8rem;
 }
 
 #btn-tabs .nav-item {
     width: 25%;
-    padding: 0 0.5rem !important;
+    padding: 0 0.5rem;
 }
 
 #btn-tabs .nav-item:first-child {
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 
 #btn-tabs .nav-item:last-child {
-    padding-right: 0 !important;
+    padding-right: 0;
 }
 
 #btn-tabs .nav-link {
@@ -438,499 +174,120 @@ section {
     background-color: transparent;
     border: 1px solid #ddd;
     padding: 0.5rem 0;
-    width: 100% !important;
+    width: 100%;
 }
 
 #btn-tabs .nav-link.active {
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.5rem;
     background-color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-    
-    #btn-tabs {
-        margin-bottom: 2rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.125rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 0.5rem !important;
-        border-radius: 0.25rem;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    #btn-tabs {
-        margin-bottom: 4rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.5rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 1rem !important;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    #btn-tabs {
-        margin-bottom: 4rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.5rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 1rem !important;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-/*--- END / ButtonTabs ---*/
-
-
-/*--- Philosophy Container ---*/
-
-/*--- Vision ---*/
-
-#nav-vision br {
-    display: block;
-}
-
-#nav-vision h1,
-#nav-care h1,
-#nav-talents h1 {
+/* PHILOSOPHY CONTAINER */
+#nav-philosophy h1 {
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 3rem;
+}
+
+#nav-philosophy p {
+    font-size: 1.5rem;
+    color: #747474;
+    margin-bottom: 0;
 }
 
 #nav-vision .listBox {
     background-color: #f2f2f2;
     border-radius: 0.5rem;
     border: 0.5px solid #eee;
-    box-shadow: 0px 4px 10px -8px black !important;
-    padding: 1.5rem 0 1.5rem 2rem !important;
-    margin-bottom: 1.5rem !important;
+    padding: 1.5rem 0 1.5rem 2rem;
+    margin-bottom: 1.5rem;
 }
 
-#nav-vision .lastBox {
-    margin-bottom: 0rem !important;
-}
-
-#nav-vision .listBox br {
-    display: none;
-}
-
-/*--- Vocation ---*/
 #nav-vocation h2 {
-    margin-bottom: 3rem !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 #nav-vocation h2:last-child {
-    margin-bottom: 0 !important;
-}
-
-#nav-vocation p br {
-    display: none;
-}
-
-.bottom-item {
-    border: 1px solid #ddd;
-    background-color: #005cb9;
-    border-radius: 0.5rem;
-    padding: 3rem 2rem;
-    height: 100%;
+    margin-bottom: 0;
 }
 
 #nav-vocation h4,
 #nav-talents h4 {
-    color: #fff !important;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
     margin-bottom: 2rem;
+}
+
+#nav-vocation .bottom-item,
+#nav-talents .bottom-item {
+    border: 1px solid #ddd;
+    background-color: #005cb9;
+    border-radius: 0.5rem;
+    padding: 3rem 2.5rem;
+    height: 100%;
 }
 
 #nav-vocation .bottom-item p,
 #nav-talents .bottom-item p {
-    color: #fff !important;
-    margin-bottom: 0 !important;
-}
-
-/*--- Care Value ---*/
-#nav-care a {
-    width: 100%;
-    font-size: 2rem;
-    font-weight: 600;
     color: #fff;
+    margin-bottom: 0;
 }
 
-#nav-care .about-content p {
-    margin-bottom: 1.5rem !important;
+#nav-vocation .bottom-item p br,
+#nav-talents .bottom-item p br {
+    display: none;
 }
 
-#nav-care i {
-    font-size: 2rem !important;
-    color: #fff;
+#nav-care p {
+    margin-bottom: 1.5rem;
 }
 
-.panel {
+#nav-care p:last-child {
+    margin-bottom: 0;
+}
+
+#nav-care .panel {
     border-radius: 0.5rem;
     margin-bottom: 1rem;
     background-color: #005cb9;
 }
 
-.panel-heading {
+#nav-care .panel .panel-heading {
     align-items: center;
     padding: 2rem;
 }
 
-.panel-body {
+#nav-care .panel .panel-heading a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+}
+
+#nav-care .panel .panel-heading i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+#nav-care .panel .panel-body {
     padding: 2rem;
     background-color: #f2f2f2;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
 
-.panel-body p {
-    font-size: 2rem !important;
+#nav-care .panel .panel-body p {
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
 }
 
 /*--- Talents ---*/
-#nav-talents .bottom-item br {
+/* #nav-talents .bottom-item br {
     display: none;
-}
-
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    #nav-vision h1,
-    #nav-care h1,
-    #nav-talents h1 {
-        margin-bottom: 1rem;
-    }
-
-    #nav-vision .listBox {
-        border-radius: 0.25rem;
-        padding: 1.25rem 0 1.25rem 1rem !important;
-        box-shadow: 0px 4px 8px -8px black !important;
-        margin-bottom: 1rem !important;
-    }
-
-    #nav-vision .lastBox {
-        margin-bottom: 0rem !important;
-    }
-
-    #nav-vocation h2 {
-        margin-bottom: 1rem !important;
-    }
-
-    #nav-vocation h2:last-child {
-        margin-bottom: 0 !important;
-    }
-
-    .bottom-item {
-        border: 1px solid #ddd;
-        background-color: #005cb9;
-        border-radius: 0.5rem;
-        padding: 2rem 1.5rem;
-    }
-
-    .bottom-itemBox {
-        margin-bottom: 1rem;
-    }
-
-    .bottom-itemBox:last-child {
-        margin-bottom: 0rem;
-    }
-
-    #nav-vocation h4,
-    #nav-talents h4 {
-        color: #fff !important;
-        margin-bottom: 1rem;
-    }
-
-    #nav-vision br {
-        display: none;
-    }
-
-    #nav-vocation .bottom-item p,
-    #nav-talents .bottom-item p {
-        color: #fff !important;
-        margin-bottom: 0 !important;
-    }
-
-    #nav-care a {
-        font-size: 1rem;
-    }
-
-    #nav-care .about-content p {
-        margin-bottom: 1rem !important;
-    }
-
-    #nav-care i {
-        font-size: 1rem !important;
-        color: #fff;
-    }
-
-    .panel {
-        border-radius: 0.25rem;
-        margin-bottom: 1rem;
-        background-color: #005cb9;
-    }
-
-    .panel-heading {
-        align-items: center;
-        padding: 1.5rem;
-    }
-
-    .panel-body {
-        padding: 1.5rem;
-        border-bottom-left-radius: 0.25rem;
-        border-bottom-right-radius: 0.25rem;
-    }
-
-    .panel-body>p {
-        font-size: 1rem !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    #nav-vision br {
-        display: none;
-    }
-
-    #nav-vision h1,
-    #nav-care h1,
-    #nav-talents h1 {
-        margin-bottom: 2rem;
-    }
-
-    #nav-vision .listBox {
-        padding: 1.5rem 0 1.5rem 1.5rem !important;
-        box-shadow: 0px 4px 8px -8px black !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-vision .lastBox {
-        margin-bottom: 0rem !important;
-    }
-
-    #nav-vocation h2 {
-        margin-bottom: 2rem !important;
-    }
-
-    #nav-vocation h2:last-child {
-        margin-bottom: 0 !important;
-    }
-
-    #nav-vocation h2 br,
-    #nav-vocation .bottom-item p br,
-    #nav-talents .bottom-item p br {
-        display: block;
-    }
-
-    .bottom-item {
-        border: 1px solid #ddd;
-        background-color: #005cb9;
-        border-radius: 0.5rem;
-        padding: 2rem 1rem;
-    }
-
-    .bottom-itemBox {
-        margin-bottom: 1.5rem;
-    }
-
-    .bottom-itemBox:last-child {
-        margin-bottom: 0rem;
-    }
-
-    #nav-vocation h4,
-    #nav-talents h4 {
-        color: #fff !important;
-        margin-bottom: 1rem;
-    }
-
-    #nav-vocation .bottom-item p,
-    #nav-talents .bottom-item p {
-        color: #fff !important;
-        margin-bottom: 0 !important;
-    }
-
-    #nav-care a {
-        font-size: 1.5rem;
-    }
-
-    #nav-care .about-content p {
-        font-size: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-care i {
-        font-size: 1.5rem !important;
-        color: #fff;
-    }
-
-    .panel {
-        margin-bottom: 1rem;
-        background-color: #005cb9;
-    }
-
-    .panel-heading {
-        align-items: center;
-        padding: 1.5rem;
-    }
-
-    .panel-body {
-        padding: 1.5rem;
-        border-bottom-left-radius: 0.25rem;
-        border-bottom-right-radius: 0.25rem;
-    }
-
-    .panel-body p {
-        font-size: 1.5rem !important;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    #nav-vision br {
-        display: none;
-    }
-
-    #nav-vision h1,
-    #nav-care h1,
-    #nav-talents h1 {
-        margin-bottom: 2rem;
-    }
-
-    #nav-vision .listBox {
-        padding: 1.5rem 0 1.5rem 1.5rem !important;
-        box-shadow: 0px 4px 8px -8px black !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-vision .lastBox {
-        margin-bottom: 0rem !important;
-    }
-
-    #nav-vocation h2 {
-        margin-bottom: 2rem !important;
-    }
-
-    #nav-vocation h2:last-child {
-        margin-bottom: 0 !important;
-    }
-
-    #nav-vision h1 br,
-    #nav-vision .bottom-item p br,
-    #nav-vocation h2 br,
-    #nav-vocation .bottom-item p br,
-    #nav-talents h4 br,
-    #nav-talents .bottom-item p br {
-        display: block;
-    }
-
-    .bottom-item {
-        border: 1px solid #ddd;
-        background-color: #005cb9;
-        border-radius: 0.5rem;
-        padding: 2rem 1.5rem;
-        height: auto;
-    }
-
-    .bottom-itemBox {
-        margin-bottom: 1.5rem;
-    }
-
-    .bottom-itemBox:last-child {
-        margin-bottom: 0rem;
-    }
-
-    #nav-vocation h4,
-    #nav-talents h4 {
-        color: #fff !important;
-        margin-bottom: 1rem;
-    }
-
-    #nav-vocation .bottom-item p,
-    #nav-talents .bottom-item p {
-        color: #fff !important;
-        margin-bottom: 0 !important;
-    }
-
-    #nav-care a {
-        font-size: 1.5rem;
-    }
-
-    #nav-care .about-content p {
-        font-size: 1.5rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-care i {
-        font-size: 1.5rem !important;
-        color: #fff;
-    }
-
-    .panel {
-        margin-bottom: 1rem;
-        background-color: #005cb9;
-    }
-
-    .panel-heading {
-        align-items: center;
-        padding: 1.5rem;
-    }
-
-    .panel-body {
-        padding: 1.5rem;
-        border-bottom-left-radius: 0.25rem;
-        border-bottom-right-radius: 0.25rem;
-    }
-
-    .panel-body p {
-        font-size: 1.5rem !important;
-    }
-
-}
-
-/*--- END / Philosophy Container ---*/
+} */

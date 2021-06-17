@@ -14,9 +14,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/media_about.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/iconfont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -31,11 +34,10 @@
 
 <body>
 
-    <!-- Navigation PC -->
+    <!-- NAVIGATION-PC -->
     <header id="header-pc" class="d-none d-md-block">
-        <nav class="navbar navbar-expand-md bg-trans">
-            <div class="container-fluid">
-
+        <div class="content-inner">
+            <nav class="navbar navbar-expand-md bg-trans">
                 <a class="navbar-brand" href="/index.html">
                     <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.5 76.8">
                         <path
@@ -55,7 +57,7 @@
                             <a class="nav-link" href="/contents.html">Contents</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Support</a>
+                            <a class="nav-link" href="/support.html">Support</a>
                         </li>
                     </ul>
                     <button class="dropdown">
@@ -70,21 +72,18 @@
                             <li><a class="dropdown-item" href="#">CHN</a></li>
                         </ul>
                     </button>
-                    <button type="button" class="search-btn">
-                        <i class="icofont-search-1"></i>
-                    </button>
+                    <!-- <button type="button" class="search-btn">
+                            <i class="icofont-search-1"></i>
+                        </button> -->
                 </div>
-
-            </div>
-
-        </nav>
-
+            </nav>
+        </div>
     </header>
-    <!-- END / Navigation PC -->
+    <!-- END / NAVIGATION-PC -->
 
-    <!-- Navigation MO -->
+    <!-- NAVIGATION-MO -->
     <header id="header-mo" class="d-block d-md-none">
-        <div class="navbar-mo container-fluid d-flex justify-content-between">
+        <div class="navbar-mo content-inner d-flex justify-content-between">
 
             <div class="nav-button">
                 <span class="bar bar1"></span>
@@ -92,7 +91,7 @@
                 <span class="bar bar3"></span>
             </div>
 
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="index.html">
                 <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.5 76.8">
                     <path
                         d="M0 77V66h30c5 0 9-1 12-3s4-5 4-7l-2-6-6-3-10-3c-5-1-10-2-13-4-4-1-7-3-10-6-2-3-3-7-3-12 0-4 1-8 3-11s6-6 10-8 10-3 17-3h25v11H32c-6 0-10 1-13 3-2 2-4 5-4 8 0 2 1 4 3 5l6 3 9 3 14 4 9 6c2 3 4 7 4 12 0 4-1 8-4 11-2 3-5 6-10 8s-10 3-17 3H0zM209 48v29h-11V49L167 0h15l22 36 22-36h14l-31 48zM329 68c-6-6-9-14-9-25V0h14v44c0 14 6 22 19 22s19-8 19-22V0h14v43c0 11-3 19-9 25s-14 9-24 9-18-3-24-9zM463 0v77h-12l-44-55v55h-11V0h12l44 55V0h11zM529 38h13v29c-3 4-8 6-13 7-5 2-10 3-16 3-7 0-14-2-20-5a37 37 0 01-20-34c0-7 2-14 5-19 4-6 8-11 15-14 6-3 13-5 20-5h30v11h-29c-5 0-10 1-14 3-4 3-7 6-9 10-3 4-4 9-4 14s1 11 4 15 5 7 9 9c4 3 9 4 14 4 6 0 11-2 15-4V38zM105 0H67v38a38 38 0 1038-38zm0 66c-15 0-27-12-27-28V11h27a27 27 0 110 55zM233 38a38 38 0 0077 0V0h-39c-21 0-38 17-38 38zm11 0c0-15 12-27 27-27h28v27a27 27 0 11-55 0z" />
@@ -106,17 +105,17 @@
             <nav id="nav">
                 <ul>
                     <li class="nav-item">
-                        <a href="/about.html" class="nav-link">
+                        <a href="about.html" class="nav-link">
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/brand.html" class="nav-link">
+                        <a href="brand.html" class="nav-link">
                             Brand
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/contents.html" class="nav-link">
+                        <a href="contents.html" class="nav-link">
                             Contents
                         </a>
                     </li>
@@ -138,28 +137,26 @@
 
         </div>
     </header>
-    <!-- END / Navigation MO -->
-
-    <hr>
+    <!-- END / NAVIGATION-MO -->
 
     <section>
-        <div class="container-fluid">
+        <div class="content-inner">
 
             <div id="nav-tabs">
-                <ul class="nav nav-tabs justify-content-around" id="tab-subMenu" role="tablist">
+                <ul class="nav justify-content-around" id="tab-subMenu" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-overview" type="button" role="tab" aria-controls="overview"
-                            aria-selected="true">Overview</button>
+                        <a class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-overview" role="tab" aria-controls="overview"
+                            aria-selected="true">Overview</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
-                            type="button" role="tab" aria-controls="history" aria-selected="false">History</button>
+                        <a class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                            role="tab" aria-controls="history" aria-selected="false">History</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="nav-philosophy-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-philosophy" type="button" role="tab" aria-controls="philosophy"
-                            aria-selected="false">Philosophy</button>
+                        <a class="nav-link" id="nav-philosophy-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-philosophy" role="tab" aria-controls="philosophy"
+                            aria-selected="false">Philosophy</a>
                     </li>
                 </ul>
             </div>
@@ -168,6 +165,7 @@
 
             <div class="tab-content" id="nav-tabContent">
 
+                <!-- OVERVIEW CONTAINER -->
                 <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
                     aria-labelledby="nav-overview-tab">
 
@@ -178,9 +176,7 @@
                     <div class="about-content">
                         <p>안녕하세요. ㈜소우영 대표 권미경입니다.</p>
                         <p>단순하고 일반적인 필러와 화장품이 아닌 의학과 전문적 과학 기술이 접목된, 좀 더 안정적이고 차별화된 상품의 탄생을 위해 노력하는 ㈜소우영 입니다.</p>
-                        <p>바쁜 현대인들의 니즈를 반영하여 간편하면서도 안정적이고 확실한 효과를 한 번에 전달할 수 있는 “ONE-TIME INTERVENTION”의 신념을 가지고 탁월성,
-                            완전성,
-                            안전성,
+                        <p>바쁜 현대인들의 니즈를 반영하여 간편하면서도 안정적이고 확실한 효과를 한 번에 전달할 수 있는 “ONE-TIME INTERVENTION”의 신념을 가지고 탁월성, 완전성, 안전성,
                             혁신성의 확고한 약속과 함께 단순히 외적 성장만을 추구하는 기업이 아닌, 고객의 진실한 파트너가 되는데 정진할 것입니다.</p>
                         <p>건강하고 행복하게 살고자 하는 인류의 영원한 꿈을 실현하고자 최선을 다하겠습니다.<br> 글로벌 뷰티 기업 소우영에 아낌없는 사랑과 격려를 부탁드립니다.</p>
                         <p>감사합니다.</p>
@@ -188,6 +184,7 @@
                     </div>
                 </div>
 
+                <!-- HISTORY CONTAINER -->
                 <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
 
                     <div class="about-content">
@@ -258,6 +255,7 @@
 
                 </div>
 
+                <!-- PHILOSOPHY CONTAINER -->
                 <div class="tab-pane fade" id="nav-philosophy" role="tabpanel" aria-labelledby="nav-philosophy-tab">
 
                     <div id="btn-tabs">
@@ -288,15 +286,15 @@
                     </div>
 
                     <div class="tab-content" id="nav-tabContent">
-
+                        <!-- VISION TAB -->
                         <div class="tab-pane fade show active" id="nav-vision" role="tabpanel"
                             aria-labelledby="nav-vision-tab">
 
                             <div class="about-content">
                                 <h1>Customer-oriented<br>Total Solution</h1>
-                                <p class="content-text">
+                                <p>
                                     올바른 미의 실천, 끊임없는 미의 연구, 새로운 미의 창조를 통해 건강한 아름다움을 구현하는
-                                    <br><span class="strong">패러다임의 시작</span>
+                                    <br>패러다임의 시작
                                 </p>
                             </div>
 
@@ -314,10 +312,14 @@
                                 <h1>핵심 사업 영역</h1>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <p class="listBox">필러, 화장품<br> 생산 및 개발<br> (국내)</p>
+                                        <div class="listBox">
+                                            <p>필러, 화장품 생산 및 개발 (국내)</p>
+                                        </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <p class="listBox">필러, 화장품<br> 유통 및 판매<br> (국내, 해외)</p>
+                                        <div class="listBox">
+                                            <p>필러, 화장품 유통 및 판매 (국내, 해외)</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -326,27 +328,41 @@
                                 <h1>핵심 Value Chain</h1>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <p class="listBox">해외 수출</p>
+                                        <div class="listBox">
+                                            <p>해외 수출</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="listBox">마케팅</p>
+                                        <div class="listBox">
+                                            <p>마케팅</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="listBox">상품 기획</p>
+                                        <div class="listBox">
+                                            <p>상품 기획</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="listBox">서비스 지원</p>
+                                        <div class="listBox">
+                                            <p>서비스 지원</p>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="listBox">생산</p>
+                                        <div class="listBox">
+                                            <p>생산</p>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <p class="listBox lastBox">연구 개발</p>
+                                    <div class="col-md-6 lastBox">
+                                        <div class="listBox">
+                                            <p>연구 개발</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
+
+                        <!-- VOCATION TAB -->
                         <div class="tab-pane fade show" id="nav-vocation" role="tabpanel"
                             aria-labelledby="nav-vocation-tab">
 
@@ -383,6 +399,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- CARE TAB -->
                         <div class="tab-pane fade show" id="nav-care" role="tabpanel" aria-labelledby="nav-care-tab">
 
                             <div class="about-content">
@@ -473,7 +491,7 @@
                                         <div class="bottom-item">
                                             <h4>Positive<br> Challenger</h4>
                                             <h4>긍정적인 도전가</h4>
-                                            <p>주인의식을 가지고<br> 열린 마음으로 미래에 도전합니다. </p>
+                                            <p>주인의식을 가지고<br> 열린 마음으로 미래에 도전합니다.</p>
                                         </div>
                                     </div>
                                     <div class="bottom-itemBox col-xl-4">
@@ -504,7 +522,7 @@
     </section>
 
     <footer>
-        <div class="container-fluid">
+        <div class="content-inner">
 
             <p class="company">SOYOUNG Co.,Ltd.</p>
 

@@ -1,99 +1,64 @@
 @media (min-width: 320px) and (max-width: 374.9px),
 (min-width: 375px) and (max-width: 767.9px) {
 
-    .content-inner { 
-        padding: 0 1rem;
-    }
-
-    section {
-        margin-bottom: 4rem !important;
+    /* CAROUSEL-SLIDE */
+    #carousel .carousel-text h1 {
+        font-size: 1.5rem;
     }
 
     #carousel .carousel-img {
-        padding-top: calc(16 / 9 * 70%) !important;
+        padding-top: calc(16 / 9 * 70%);
     }
 
     #carousel .carousel-button {
         padding: 0.5rem 1rem;
         margin-top: 1.5rem;
         border: 0.5px solid #fff;
+    }
+
+    #carousel .carousel-button a {
+        font-size: 1rem;
     }
 
     #carousel .control-inner {
         bottom: 1rem;
     }
 
+    #carousel .control .control-prev,
+    #carousel .control .control-next {
+        font-size: 1rem;
+    }
+
     section h1 {
-        display: block;
-        text-align: center;
+        font-size: 1.5rem;
         margin-top: 4rem;
         margin-bottom: 2rem;
     }
 
     #brandCarousel .brand-item {
-        min-width: 85% !important;
+        min-width: 85%;
     }
 
     #brandCarousel .brand-item h4 {
-        font-size: 1.25rem !important;
+        font-size: 1.25rem;
     }
 
     #brandCarousel .brand-item p {
-        font-size: 1rem !important;
-    }
-
-    /* FOOTER */
-
-    footer .company {
-        font-size: 1rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    footer .footer-content {
-        margin-bottom: 1rem !important;
-    }
-
-    footer p,
-    footer a {
-        font-size: 0.75rem !important;
-    }
-
-    footer span {
-        font-size: 0.75rem;
-        font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
-
-    .footer-item {
-        margin-bottom: 0.5rem;
-    }
-
-    .copyright {
-        color: #747474 !important;
+        font-size: 1rem;
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
-
-    .content-inner {
-        padding: 0 1.5rem;
-    }
-
-    section {
-        margin-bottom: 4rem !important;
-    }
     
     #header-pc .navbar-nav .nav-link {
-        padding: 1rem 1rem !important;
-        font-size: 1.25rem !important;
+        padding: 1rem 1rem ;
+        font-size: 1.25rem ;
     }
 
     /* CAROUSEL SLIDE */
-
     #carousel .carousel-img {
-        padding-top: calc(9 / 16 * 100%);
+        padding-top: calc(3 / 4 * 100%);
     }
 
     #carousel .carousel-button {
@@ -109,136 +74,55 @@
     /* BRAND CAROUSEL */
 
     section h1 {
-        margin-top: 4rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
     }
 
     #brandCarousel .brand-item {
-        min-width: 40% !important;
+        min-width: 40%;
     } 
 
     #brandCarousel .brand-item h4 {
-        font-size: 1.25rem !important;
+        font-size: 1.5rem;
     }
 
-    #brandCarousel .brand-item p {
-        font-size: 1rem !important;
-    }
-
-    /* FOOTER */
-
-    footer .company {
-        font-size: 1rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    footer .footer-content {
-        margin-bottom: 1rem !important;
-    }
-
-    footer p,
-    footer a {
-        font-size: 0.75rem !important;
-    }
-
-    footer span {
-        font-size: 0.75rem;
-        font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
-
-    .footer-item {
-        margin-bottom: 0.5rem;
-    }
-
-    .copyright {
-        color: #747474 !important;
+    #brandCarousel .brand-item p,
+    #brandCarousel .more-btn a {
+        font-size: 1rem;
     }
     
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
 
-    .content-inner {
-        padding: 0 2rem;
-    }
-
-    section {
-        margin-bottom: 6rem !important;
-    }
-
-    #header-pc .navbar-nav .nav-link {
-        padding: 1rem 1rem !important;
-        font-size: 1.25rem !important;
-    }
-
     /* CAROUSEL-SLIDE */
     
     #carousel .carousel-img {
-        padding-top: calc(4 / 3 * 50%);
+        padding-top: calc(3 / 4 * 100%);
     }
-
-    #carousel .carousel-button {
-        margin-top: 1rem;
-    }
-
-    #carousel .control-inner {
-        bottom: 1.5rem;
-    }
-
     
     /* BRAND CAROUSEL */
 
     section h1 {
-        margin-top: 6rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
     }
 
     #brandCarousel .brand-img {
-        padding-top: calc(100% - 80px);
+        padding-top: calc(100% - 100px);
     }
 
-    /* #brandCarousel .brand-item {
+    #brandCarousel .brand-item {
         min-width: 40%;
-    } */
+    }
 
     #brandCarousel .brand-item h4 {
-        font-size: 1.25rem !important;
+        font-size: 1.5rem;
     }
 
     #brandCarousel .brand-item p,
     #brandCarousel .more-btn a {
-        font-size: 1rem !important;
+        font-size: 1rem;
     }
-
-    footer .company {
-        font-size: 1.5rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    .footer-content {
-        margin-bottom: 1rem !important;
-    }
-
-    footer p,
-    footer a {
-        font-size: 1.25rem !important;
-    }
-
-    footer span {
-        font-size: 1.25rem;
-        font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
-
-    footer .footer-item {
-        margin-bottom: 0.5rem;
-    }
-
-    .copyright {
-        color: #747474 !important;
-    }
-
+    
 }

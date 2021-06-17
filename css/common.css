@@ -33,6 +33,101 @@ body {
     background-color: #fff;
 }
 
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus {
+    color: #222;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.mainColor-font {
+    color: #005cb9;
+}
+
+.basicColor-font {
+    color: #222;
+}
+
+.mainColor-bg {
+    background-color: #005cb9;
+}
+
+.content-inner {
+    width: 100%;
+    max-width: 1194px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 8rem !important;
+}
+
+section hr {
+    margin-bottom: 8rem;
+}
+
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    .content-inner {
+        padding: 0 1rem;
+    }
+
+    section {
+        margin-bottom: 4rem !important;
+    }
+
+    section hr {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    .content-inner {
+        padding: 0 1.5rem;
+    }
+
+    section {
+        margin-bottom: 4rem !important;
+    }
+
+    section hr {
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .content-inner {
+        padding: 0 2rem;
+    }
+
+    section {
+        margin-bottom: 4rem !important;
+    }
+
+    section hr {
+        margin-bottom: 4rem;
+    }
+
+}
+/* 
 h6,
 .h6,
 h5,
@@ -84,21 +179,10 @@ p {
     color: #747474 !important;
     padding: 0 !important;
     margin-bottom: 0 !important;
-}
+} */
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:focus {
-    color: #222;
-    font-weight: 400;
-    text-decoration: none;
-    -webkit-transition: 0.3s all ease;
-    -o-transition: 0.3s all ease;
-    transition: 0.3s all ease;
-}
 
+/* 
 @media (min-width: 320px) and (max-width: 374.9px),
 (min-width: 375px) and (max-width: 767.9px) {
 
@@ -160,127 +244,7 @@ a:focus {
         font-size: 1.5rem !important;
     }
 
-}
+} */
 
-hr {
-    padding: 0 !important;
-    margin: 0 !important;
-    border: 0;
-    border-bottom: 1px solid #eee;
-}
-
-.mainColor-font {
-    color: #005cb9 !important;
-}
-
-.basicColor-font {
-    color: #222 !important;
-}
-
-.mainColor-bg {
-    background-color: #005cb9 !important;
-}
-
-/*--- Footer ---*/
-
-footer {
-    width: 100%;
-    padding: 3rem 0;
-    background-color: #222;
-    color: #fff;
-}
-
-footer .company {
-    font-weight: 600;
-    margin-bottom: 1rem !important;
-}
-
-.footer-content {
-    margin-bottom: 1rem !important;
-}
-
-footer p,
-footer a {
-    font-size: 1rem !important;
-    color: #fff !important;
-}
-
-footer span {
-    font-size: 1rem;
-    font-weight: lighter;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-}
-
-.copyright {
-    color: #747474 !important;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    footer .company {
-        font-size: 1rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    .footer-content {
-        margin-bottom: 1rem !important;
-    }
-
-    footer p,
-    footer a {
-        font-size: 0.75rem !important;
-    }
-
-    footer span {
-        font-size: 0.75rem;
-        font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
-
-    .footer-item {
-        margin-bottom: 0.5rem;
-    }
-
-    .copyright {
-        color: #747474 !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-    
-    footer .company {
-        font-size: 1.5rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    .footer-content {
-        margin-bottom: 1rem !important;
-    }
-
-    footer p,
-    footer a {
-        font-size: 1.25rem !important;
-    }
-
-    footer span {
-        font-size: 1.25rem;
-        font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
-    }
-
-    .footer-item {
-        margin-bottom: 0.5rem;
-    }
-
-    .copyright {
-        color: #747474 !important;
-    }
-
-}
 
 /*--- END / Footer ---*/
