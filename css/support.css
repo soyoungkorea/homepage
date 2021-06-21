@@ -37,11 +37,20 @@ section .content-inner hr {
     color: #fff;
 }
 
+#support-content .support-button .support-item {
+    margin-bottom: 1rem;
+}
+
+#support-content .support-button .support-item:last-child {
+    margin-bottom: 0;
+}
+
 #support-content .support-button .support-item p {
     font-size: 1.5rem;
     color: #fff;
     margin-bottom: 0;
 }
+
 
 
 /* CONTACT CONTAINER */
