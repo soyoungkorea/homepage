@@ -27,7 +27,6 @@
         margin-bottom: 0;
     }
 
-
     /* HISTORY CONTAINER */
     #nav-history .timeline h2 {
         font-size: 1.5rem;
@@ -227,7 +226,6 @@
         margin-bottom: 2rem;
     }
 
-
     /* HISTORY CONTAINER */
     #nav-history .timeline h2 {
         font-size: 2rem;
@@ -307,7 +305,7 @@
     }
 
     #btn-tabs .nav-item {
-        padding: 0 0.5rem;
+        padding: 0 0.25rem;
     }
 
     #btn-tabs .nav-link {
@@ -315,6 +313,7 @@
         padding: 0.5rem 0;
     }
 
+    /* PHILOSOPHY CONTAINER */
     #nav-philosophy h1 {
         font-size: 2em;
         margin-bottom: 2rem;
@@ -415,7 +414,6 @@
     }
 
     /* HISTORY CONTAINER */
-
     #nav-history .timeline h2 {
         font-size: 2.5rem;
         margin-bottom: 1rem;
@@ -430,6 +428,7 @@
         font-size: 1rem;
     }
 
+    /* BUTTON TABS */
     #btn-tabs {
         margin-bottom: 4rem;
     }
@@ -442,7 +441,8 @@
         font-size: 1rem;
         padding: 0.5rem 0;
     }
-    
+
+    /* PHILOSOPHY CONTAINER */
     #nav-philosophy h1 {
         font-size: 2.5em;
         margin-bottom: 2rem;

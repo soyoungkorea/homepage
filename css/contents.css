@@ -1,52 +1,6 @@
 @charset "UTF-8";
 
-/*--- Section ---*/
-
-section hr {
-    margin-bottom: 8rem !important;
-}
-
-section {
-    margin-bottom: 8rem;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    section hr {
-        margin-bottom: 2rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-}
-
-/*--- END / Section ---*/
-
 /*--- NavTabs ---*/
-
 #nav-tabs {
     margin-top: 8rem;
     margin-bottom: 3rem;
@@ -56,102 +10,48 @@ section {
     border: none !important;
 }
 
+#nav-tabs .nav-item {
+    border: none !important;
+}
+
 #nav-tabs .nav-item .nav-link {
     color: #747474;
     font-size: 1.5rem;
-    padding: 0 !important;
-    margin: 0 !important;
+    -webkit-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    transition: 0.1s all ease;
 }
 
-#nav-tabs .nav-item .active {
-    border: none !important;
-    font-weight: 600;
-    color: #222;
-    text-decoration: underline;
-    text-underline-position: under;
+#nav-tabs .nav-item .active.active {
+    color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
 
-    .container-fluid {
-        padding: 0 1rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 5rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-link {
-        font-size: 0.75rem !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    .container-fluid {
-        padding: 0 2rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    .container-fluid {
-        padding: 0 2.5rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 2rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1.25rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-
-}
-
-/*--- END / NavTabs ---*/
-
-/*--- Content-title ---*/
-
+/* CONTENT CONTAINER */
 #nav-media h1,
 #nav-photo h1 {
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 2rem;
 }
 
-/*--- END / Content-title ---*/
 
-/*--- ButtonTabs ---*/
-
+/* BUTTON TABS */
 #btn-tabs {
     margin-bottom: 8rem;
 }
 
 #btn-tabs .nav-item {
     width: 25%;
-    padding: 0 0.5rem !important;
+    padding: 0 0.5rem;
 }
 
 #btn-tabs .nav-item:first-child {
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 
 #btn-tabs .nav-item:last-child {
-    padding-right: 0 !important;
+    padding-right: 0;
 }
 
 #btn-tabs .nav-link {
@@ -162,105 +62,18 @@ section {
     background-color: transparent;
     border: 1px solid #ddd;
     padding: 0.5rem 0;
-    width: 100% !important;
+    width: 100%;
 }
 
 #btn-tabs .nav-link.active {
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.5rem;
     background-color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    #btn-tabs {
-        margin-bottom: 2rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.125rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 0.5rem !important;
-        border-radius: 0.25rem;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    #btn-tabs {
-        margin-bottom: 4rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.5rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 1rem !important;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    #btn-tabs {
-        margin-bottom: 4rem !important;
-    }
-
-    #btn-tabs .nav-item {
-        padding: 0 0.5rem !important;
-    }
-
-    #btn-tabs .nav-link {
-        font-size: 1rem !important;
-        padding: 0.5rem 0 !important;
-    }
-
-    #btn-tabs .nav-link.active {
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-        background-color: #005cb9;
-    }
-
-}
-
-/*--- END / ButtonTabs ---*/
 
 /*--- Contents Section ---*/
-
 .ratio-item {
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    .ratio-item {
-        padding: 0.5rem;
-    }
-
-}
-
-/*--- END / Contents Section ---*/

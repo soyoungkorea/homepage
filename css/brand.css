@@ -1,52 +1,6 @@
 @charset "UTF-8";
 
-/*--- Section ---*/
-
-section hr {
-    margin-bottom: 8rem !important;
-}
-
-section {
-    margin-bottom: 8rem;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    section hr {
-        margin-bottom: 2rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-}
-
-/*--- END / Section ---*/
-
-/*--- NavTabs ---*/
-
+/* NAV TABS */
 #nav-tabs {
     margin-top: 8rem;
     margin-bottom: 3rem;
@@ -56,104 +10,65 @@ section {
     border: none !important;
 }
 
+#nav-tabs .nav-item {
+    border: none !important;
+}
+
 #nav-tabs .nav-item .nav-link {
     color: #747474;
     font-size: 1.5rem;
-    padding: 0 !important;
-    margin: 0 !important;
+    -webkit-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    transition: 0.1s all ease;
 }
 
-#nav-tabs .nav-item .active {
-    border: none !important;
-    font-weight: 600;
-    color: #222;
-    text-decoration: underline;
-    text-underline-position: under;
+#nav-tabs .nav-item .active.active {
+    color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    .container-fluid {
-        padding: 0 1rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 5rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-link {
-        font-size: 0.75rem !important;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    .container-fluid {
-        padding: 0 2rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    .container-fluid {
-        padding: 0 2.5rem !important;
-    }
-
-    #nav-tabs {
-        margin-top: 6rem !important;
-        margin-bottom: 2rem !important;
-    }
-
-    #nav-tabs .nav-item .nav-link {
-        font-size: 1.25rem !important;
-        padding: 0.75rem 1rem !important;
-    }
-
-}
-
-/*--- Brand Section ---*/
-
+/* BRAND CONTAINER */
 .brand-content {
     margin-bottom: 8rem;
 }
 
 #nav-filler h1,
-#nav-filler h2,
 #nav-cosmetic h1,
+#nav-booster h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+#nav-filler h2,
 #nav-cosmetic h2,
-#nav-booster h1,
 #nav-booster h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
     margin-bottom: 3rem;
 }
 
 #nav-filler p,
 #nav-cosmetic p,
 #nav-booster p {
-    margin-bottom: 1.5rem !important;
+    font-size: 1.5rem;
+    color: #747474;
     line-height: 1.75;
-}
-
-#nav-booster p br {
-    display: none;
+    margin-bottom: 1.5rem;
 }
 
 #nav-filler p:last-child,
 #nav-cosmetic p:last-child,
 #nav-booster p:last-child {
     margin-bottom: 0rem !important;
+}
+
+#nav-filler ul li,
+#nav-cosmetic ul li,
+#nav-booster ul li {
+    font-size: 1.5rem;
+    color: #747474;
+    padding-bottom: 0.5rem;
+    list-style: square;
 }
 
 .filler-info-img {
@@ -166,7 +81,7 @@ section {
 .cosmetic-info-img {
     width: 100%;
     height: 0;
-    padding-top: calc(3 / 3 * 100%);
+    padding-top: calc(1 / 1 * 100%);
     background: url('/image/info_cosmetic_img.png') center center / cover no-repeat;
 }
 
@@ -177,125 +92,22 @@ section {
     background: url('/image/info_booster_img.png') center center / cover no-repeat;
 }
 
-.brand-content ul li {
-    list-style: square;
-    color: #747474;
-    margin-left: 1.5rem !important;
-    padding-bottom: 0.5rem !important;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    .brand-content {
-        margin-bottom: 2rem;
-    }
-
-    .brand-content:last-child {
-        margin-bottom: 0;
-    }
-
-    #nav-filler h1,
-    #nav-filler h2,
-    #nav-cosmetic h1,
-    #nav-cosmetic h2,
-    #nav-booster h1,
-    #nav-booster h2 {
-        margin-bottom: 1rem;
-    }
-
-    #nav-filler p,
-    #nav-cosmetic p,
-    #nav-booster p {
-        margin-bottom: 1rem !important;
-        line-height: 1.5;
-    }
-
-    #nav-booster p br {
-        display: block;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px),
-(min-width: 1024px) and (max-width: 1280px) {
-
-    .brand-content {
-        margin-bottom: 4rem;
-    }
-
-    #nav-filler h1,
-    #nav-filler h2,
-    #nav-cosmetic h1,
-    #nav-cosmetic h2,
-    #nav-booster h1,
-    #nav-booster h2 {
-        margin-bottom: 2rem;
-    }
-
-    #nav-filler p,
-    #nav-cosmetic p,
-    #nav-booster p {
-        margin-bottom: 2rem !important;
-    }
-
-}
-
-/*--- END / Dermal Filler Info---*/
-
+/* PRODUCT LINK BUTTON */
 .product-link {
     display: block;
     border-radius: 0.5rem;
     padding: 2rem;
 }
 
-.product-item h4 {
-    font-weight: 600 !important;
+.product-link .product-item h4 {
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 2rem;
+    color: #fff;
 }
 
-.product-item h5 {
-    font-weight: 400 !important;
-    margin-bottom: 0rem;
+.product-link .product-item h5 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0;
 }
-
-.product-item h4,
-.product-item h5 {
-    color: #fff !important;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    .product-link {
-        border-radius: 0.25rem;
-        padding: 1rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .product-item h4 {
-        margin-bottom: 1rem;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    .product-link {
-        border-radius: 0.5rem;
-        padding: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .product-item h4 {
-        margin-bottom: 1rem;
-    }
-
-    .product-item h4,
-    .product-item h5 {
-        font-size: 1.5rem !important;
-    }
-
-}
-
-/*--- END / Brand Section ---*/

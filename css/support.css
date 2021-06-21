@@ -1,123 +1,90 @@
 @charset "UTF-8";
 
-/*--- Section ---*/
-
-section hr {
-    margin-bottom: 8rem !important;
+section .content-inner hr {
+    margin: 8rem 0;
 }
 
-section {
-    margin-bottom: 8rem !important;
-}
-
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    section hr {
-        margin-bottom: 2rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem !important;
-    }
-
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem !important;
-    }
-
-    
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-}
-
-/*--- END / Section ---*/
-
-
-/*--- Support-content---*/
-
-.support-title {
-    margin-top: 8rem !important;
-    margin-bottom: 3rem !important;
-}
-
-.contact-title {
+/* SUPPORT CONTAINER */
+#support-content {
+    margin-top: 8rem;
     margin-bottom: 3rem;
 }
 
-.support-content {
-    margin-bottom: 8rem;
+#support-content .support-title {
+    margin-bottom: 4rem;
 }
 
-.support-title h1,
-.contact-title h1 {
+#support-content .support-title h1 {
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 2rem;
 }
 
+#support-content .support-title p {
+    font-size: 1.5rem;
+    color: #747474;
+}
 
-
-
-.support-link {
+#support-content .support-button .support-link {
     display: block;
     border-radius: 0.5rem;
     padding: 2rem;
 }
 
-.support-item,
-.contact-item {
-    margin-bottom: 2rem;
+#support-content .support-button .support-item h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
 }
 
-.support-item:last-child,
-.contact-item:last-child {
+#support-content .support-button .support-item p {
+    font-size: 1.5rem;
+    color: #fff;
     margin-bottom: 0;
 }
 
-.support-content .support-item h2 {
-    font-size: 2rem !important;
-    font-weight: 600 !important;
+
+/* CONTACT CONTAINER */
+#contact-content {
+    margin-bottom: 4rem;
 }
 
-.contact-content .contact-item h3 {
-    font-size: 1.5rem !important;
+#contact-content .contact-title {
+    margin-bottom: 4rem;
+}
+
+#contact-content .contact-title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#contact-content .contact-title p {
+    font-size: 1.5rem;
+    color: #747474;
+}
+
+#contact-content .contact-map .contact-item {
+    margin-bottom: 4rem;
+}
+
+#contact-content .contact-map .contact-item h3 {
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
-.support-content .support-item h2,
-.support-content .support-item p {
-    color: #fff !important;
+#contact-content .contact-map .contact-item p {
+    font-size: 1.5rem;
+    color: #747474;
 }
 
-.support-content .contact-item h2 {
-    color: #222 !important;
-}
-
-.contact-info {
-    display: block;
-    height: 50%;
-}
-
-.google-map iframe {
+#contact-content .contact-map .google-map iframe {
     border: 0;
     width: 100%;
     height: 40vh;
 }
-
+/* 
 @media (min-width: 320px) and (max-width: 374.9px),
 (min-width: 375px) and (max-width: 767.9px) {
 
@@ -247,6 +214,6 @@ section {
         margin-bottom: 2rem !important;
     }
 
-}
+} */
 
 /*--- END / Brand Section ---*/

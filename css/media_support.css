@@ -1,0 +1,291 @@
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    section .content-inner hr {
+        margin: 2rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    #support-content .support-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-title p {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-link {
+        border-radius: 0.25rem;
+        padding: 1rem;
+    }
+
+    #support-content .support-button .support-item h2 {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 0.75rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-title h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-title p {
+        font-size: 1rem;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .google-map iframe {
+        border: 0;
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    section .content-inner hr {
+        margin: 4rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-title p {
+        font-size: 1.25rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-link {
+        border-radius: 0.25rem;
+        padding: 1rem;
+    }
+
+    #support-content .support-button .support-item h2 {
+        font-size: 1.25rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-title h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-title p {
+        font-size: 1.25rem;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1.25rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    section .content-inner hr {
+        margin: 4rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title p {
+        font-size: 1.5rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-button .support-item h3 {
+        font-size: 1.75rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 1.5rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-title h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-title p {
+        font-size: 1.5rem;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1.5rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+}

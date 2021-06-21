@@ -1,0 +1,210 @@
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    /* NAV TABS */
+    #nav-tabs {
+        margin-top: 5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    #nav-tabs .nav-item .nav-link {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+
+    /* BRAND CONTAINER */
+    .brand-content {
+        margin-bottom: 2rem;
+    }
+
+    #nav-filler h1,
+    #nav-cosmetic h1,
+    #nav-booster h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler h2,
+    #nav-cosmetic h2,
+    #nav-booster h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler p,
+    #nav-cosmetic p,
+    #nav-booster p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler ul,
+    #nav-cosmetic ul,
+    #nav-booster ul {
+        padding-left: 1.5rem;
+    }
+
+    #nav-filler ul li,
+    #nav-cosmetic ul li,
+    #nav-booster ul li {
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    /* PRODUCT LINK BUTTON */
+    .product-link {
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-link .product-item h4 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-link .product-item h5 {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    /* NAV TABS */
+    #nav-tabs {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #nav-tabs .nav-item .nav-link {
+        font-size: 1rem;
+    }
+
+    /* BRAND CONTAINER */
+    .brand-content {
+        margin-bottom: 4rem;
+    }
+
+    #nav-filler h1,
+    #nav-cosmetic h1,
+    #nav-booster h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler h2,
+    #nav-cosmetic h2,
+    #nav-booster h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler p,
+    #nav-cosmetic p,
+    #nav-booster p {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler ul,
+    #nav-cosmetic ul,
+    #nav-booster ul {
+        padding-left: 1.5rem;
+    }
+
+    #nav-filler ul li,
+    #nav-cosmetic ul li,
+    #nav-booster ul li {
+        font-size: 1.25rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    /* PRODUCT LINK BUTTON */
+    .product-link {
+        border-radius: 0.25rem;
+        padding: 1.5rem;
+    }
+
+    .product-link .product-item h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-link .product-item h5 {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* NAV TABS */
+    #nav-tabs {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    #nav-tabs .nav-item .nav-link {
+        font-size: 1.5rem;
+    }
+
+    /* BRAND CONTAINER */
+    .brand-content {
+        margin-bottom: 4rem;
+    }
+
+    #nav-filler h1,
+    #nav-cosmetic h1,
+    #nav-booster h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler h2,
+    #nav-cosmetic h2,
+    #nav-booster h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler p,
+    #nav-cosmetic p,
+    #nav-booster p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #nav-filler ul,
+    #nav-cosmetic ul,
+    #nav-booster ul {
+        padding-left: 1.5rem;
+    }
+
+    #nav-filler ul li,
+    #nav-cosmetic ul li,
+    #nav-booster ul li {
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    /* PRODUCT LINK BUTTON */
+    .product-link {
+        padding: 1.5rem;
+    }
+
+    .product-link .product-item h4 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-link .product-item h5 {
+        font-size: 1.5rem;
+    }
+
+}
