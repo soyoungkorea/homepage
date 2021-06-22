@@ -1,93 +1,165 @@
 @charset "UTF-8";
 
-/*--- Section ---*/
-
-section hr {
-    margin-bottom: 8rem !important;
-}
-
-section {
-    margin-bottom: 8rem;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
-
-    section hr {
-        margin-bottom: 2rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1023.9px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-    section {
-        margin-bottom: 4rem;
-    }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-
-    section hr {
-        margin-bottom: 4rem !important;
-    }
-
-}
-
-/*--- END / Section ---*/
-
-/*--- ButtonTabs ---*/
-
-.nav-tabs {
-    border: none !important;
-}
-
+/* BUTTON TABS */
 #btn-tabs {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 #btn-tabs .nav-item {
     width: 50%;
-    padding: 0 0.5rem !important;
+    padding: 0 0.5rem;
 }
 
 #btn-tabs .nav-item:first-child {
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 
 #btn-tabs .nav-item:last-child {
-    padding-right: 0 !important;
+    padding-right: 0;
 }
 
 #btn-tabs .nav-link {
     font-size: 1.25rem;
     color: #747474;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.5rem;
     background-color: transparent;
     border: 1px solid #ddd;
     padding: 0.5rem 0;
-    width: 100% !important;
+    width: 100%;
 }
 
 #btn-tabs .nav-link.active {
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.5rem;
     background-color: #005cb9;
 }
 
-@media (min-width: 320px) and (max-width: 374.9px),
+
+/* PRODUCT CONTAINER */
+.product-content {
+    margin-bottom: 8rem;
+}
+
+.product-content:nth-child(3),
+.product-content:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.product-list h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.product-info {
+    padding: 0 1rem;
+}
+
+.product-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.product-info h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-info h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+
+.product-info p {
+    font-size: 1.5rem;
+    color: #747474;
+    margin-bottom: 1.5rem;
+}
+
+.product-info p:last-child {
+    margin-bottom: 0;
+}
+
+.product-info .product-item {
+    margin-bottom: 1rem;
+}
+.product-info .product-item:last-child {
+    margin-bottom: 0;
+}
+
+.product-info .remark {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+/* PRODUCT IMAGE */
+.product-content .thumb {
+    margin-bottom: 3rem;
+    padding: 4rem;
+    background-color: #f2f2f2;
+}
+
+.product-content .img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(1 / 1 * 100%);
+}
+
+/* FILLER IMAGE */
+.img-rjns-sparkle {
+    background: url('/image/rjns_01.png') center center / cover no-repeat;
+}
+.img-rjns-fine {
+    background: url('/image/rjns_02.png') center center / cover no-repeat;
+}
+.img-rjns-deep {
+    background: url('/image/rjns_03.png') center center / cover no-repeat;
+}
+.img-rjns-shape {
+    background: url('/image/rjns_04.png') center center / cover no-repeat;
+}
+
+.img-xpurt-breeze {
+    background: url('/image/xpurt_01.png') center center / cover no-repeat;
+}
+
+.img-xpurt-climax {
+    background: url('/image/xpurt_02.png') center center / cover no-repeat;
+}
+
+.img-xpurt-finale {
+    background: url('/image/xpurt_03.png') center center / cover no-repeat;
+}
+
+/* COSMETIC IMAGE */
+.img-cellnoc-toner {
+    background: url('/image/cellnoc_01.png') center center / cover no-repeat;
+}
+
+.img-cellnoc-ampoule {
+    background: url('/image/cellnoc_02.png') center center / cover no-repeat;
+}
+
+.img-cellnoc-cream {
+    background: url('/image/cellnoc_03.png') center center / cover no-repeat;
+}
+
+/* BOOSTER IMAGE */
+.img-gemvous {
+    background: url('/image/gemvous_01.png') center center / cover no-repeat;
+}
+
+
+/* @media (min-width: 320px) and (max-width: 374.9px),
 (min-width: 375px) and (max-width: 767.9px) {
 
     .container-fluid {
@@ -172,63 +244,47 @@ section {
         background-color: #005cb9;
     }
 
-}
+} */
 
-/*--- END / ButtonTabs ---*/
 
-.product-list h1 {
-    margin-bottom: 3rem;
-}
-
-.product-content {
-    margin-bottom: 8rem;
-}
-
-.product-content .thumb {
-    margin-bottom: 3rem;
-    background-color: #f2f2f2;
-}
-
-.product-content .pro-img {
+/* .product-content .pro-img {
     width: 100%;
     height: 100%;
-    padding: 2rem;
+    padding: 4rem;
     background-size: cover;
+} */
+
+/* #nav-rjns .product-list h1,
+#nav-xpurt .product-list h1,
+#nav-cellnoc .product-list h1,
+#nav-gemvous .product-list h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
-.product-info {
-    padding: 0 0.5rem;
-}
+#nav-rjns .product-info h3,
+#nav-xpurt .product-info h3,
+#nav-cellnoc .product-info h3,
+#nav-gemvous .product-info h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+} 
 
 #nav-rjns .product-info h4,
 #nav-xpurt .product-info h4,
 #nav-cellnoc .product-info h4,
 #nav-gemvous .product-info h4 {
-    margin-bottom: 2rem;
-}
-
-#nav-rjns .product-info h5,
-#nav-xpurt .product-info h5,
-#nav-cellnoc .product-info h5,
-#nav-gemvous .product-info h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.25rem;
-}
+} */
 
-.product-info p {
-    margin-bottom: 1.5rem !important;
-}
 
-.product-info p:last-child {
-    margin-bottom: 0 !important;
-}
 
-.product-info .remark {
-    font-size: 1.25rem !important;
-    margin-bottom: 0 !important;
-}
-
-@media (min-width: 320px) and (max-width: 374.9px),
+/* @media (min-width: 320px) and (max-width: 374.9px),
 (min-width: 375px) and (max-width: 767.9px) {
 
     .product-list h1 {
@@ -366,4 +422,4 @@ section {
         margin-bottom: 0 !important;
     }
 
-}
+} */

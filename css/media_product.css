@@ -1,0 +1,248 @@
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    /* BUTTON TABS */
+    #btn-tabs {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #btn-tabs .nav-item {
+        padding: 0 0.125rem;
+    }
+
+    #btn-tabs .nav-link {
+        font-size: 0.5rem;
+        border-radius: 0.25rem;
+        padding: 0.5rem 0;
+    }
+
+    #btn-tabs .nav-link.active {
+        border-radius: 0.25rem;
+    }
+
+    /* PRODUCT CONTAINER */
+    .product-content {
+        margin-bottom: 2rem;
+    }
+
+    .product-content:last-child {
+        margin-bottom: 0;
+    }
+    
+    #nav-rjns .product-content:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+    
+    /* PRODUCT CONTAINER */
+    .product-list h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info {
+        padding: 0 0.5rem;
+    }
+
+    .product-info h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .product-info h4 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .product-info p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-info p:last-child {
+        margin-bottom: 0;
+    }
+
+    .product-info .remark {
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    
+    /* PRODUCT IMAGE */
+    .product-content .thumb {
+        margin-bottom: 2rem;
+        padding: 2rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    /* BUTTON TABS */
+    #btn-tabs {
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+    }
+
+    #btn-tabs .nav-item {
+        padding: 0 0.25rem;
+    }
+
+    #btn-tabs .nav-link {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    /* PRODUCT CONTAINER */
+    .product-content {
+        margin-bottom: 4rem;
+    }
+
+    .product-list h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info {
+        padding: 0 0.5rem;
+    }
+
+    .product-info h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .product-info h4 {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+
+    .product-info p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info p:last-child {
+        margin-bottom: 0;
+    }
+
+    .product-info .remark {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+    }
+
+    /* PRODUCT IMAGE */
+    .product-content .thumb {
+        margin-bottom: 2rem;
+        padding: 2rem;
+    }
+
+    #nav-gemvous .product-content {
+        margin-bottom: 0;
+    }
+
+    #nav-gemvous .product-content .img {
+        width: 100%;
+        height: 0;
+        padding-top: calc(1 / 1 * 100%);
+    }
+
+    #nav-gemvous .product-content .thumb {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* BUTTON TABS */
+    #btn-tabs {
+        margin-top: 9rem;
+        margin-bottom: 5rem;
+    }
+
+    #btn-tabs .nav-item {
+        padding: 0 0.5rem;
+    }
+
+    #btn-tabs .nav-link {
+        font-size: 1.25rem;
+    }
+
+    /* PRODUCT CONTAINER */
+    .product-content {
+        margin-bottom: 4rem;
+    }
+
+    .product-list h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info {
+        padding: 0 0.5rem;
+    }
+
+    .product-info h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info h3 {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .product-info h4 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .product-info p {
+        font-size: 1.5em;
+        margin-bottom: 1rem;
+    }
+
+    .product-info p:last-child {
+        margin-bottom: 0;
+    }
+
+    .product-info .remark {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    /* PRODUCT IMAGE */
+    .product-content .thumb {
+        margin-bottom: 4rem;
+        padding: 4rem;
+    }
+
+    #nav-gemvous .product-content {
+        margin-bottom: 0;
+    }
+
+    #nav-gemvous .product-content .img {
+        width: 100%;
+        height: 0;
+        padding-top: calc(1 / 1 * 100%);
+    }
+
+    #nav-gemvous .product-content .thumb {
+        margin-bottom: 0;
+    }
+
+}
