@@ -37,6 +37,9 @@ body {
 h1, h2, h3, h4, h5, p {
     font-family: 'Poppins',
     sans-serif !important;
+    -webkit-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    transition: 0.1s all ease;
 }
 
 a,
@@ -61,6 +64,12 @@ hr {
     border-bottom: 1px solid #eee;
 }
 
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 14rem;
+}
+
 .mainColor-font {
     color: #005cb9 !important;
 }
@@ -75,16 +84,17 @@ hr {
 
 .content-inner {
     width: 100%;
-    max-width: 1194px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
 section {
-    margin-bottom: 8rem !important;
+    
+    margin-bottom: 6rem !important;
 }
 
 section hr {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 @media (min-width: 320px) and (max-width: 374.9px),

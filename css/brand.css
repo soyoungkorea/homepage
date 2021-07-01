@@ -2,8 +2,8 @@
 
 /* NAV TABS */
 #nav-tabs {
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
 }
 
 .nav-tabs {
@@ -16,7 +16,7 @@
 
 #nav-tabs .nav-item .nav-link {
     color: #747474;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     -webkit-transition: 0.1s all ease;
     -o-transition: 0.1s all ease;
     transition: 0.1s all ease;
@@ -28,29 +28,29 @@
 
 /* BRAND CONTAINER */
 .brand-content {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 #nav-filler h1,
 #nav-cosmetic h1,
 #nav-booster h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #nav-filler h2,
 #nav-cosmetic h2,
 #nav-booster h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #nav-filler p,
 #nav-cosmetic p,
 #nav-booster p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #747474;
     line-height: 1.75;
     margin-bottom: 1.5rem;
@@ -65,7 +65,7 @@
 #nav-filler ul li,
 #nav-cosmetic ul li,
 #nav-booster ul li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #747474;
     padding-bottom: 0.5rem;
     list-style: square;
@@ -96,18 +96,18 @@
 .product-link {
     display: block;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .product-link .product-item h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
     color: #fff;
 }
 
 .product-link .product-item h5 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #fff;
     margin-bottom: 0;
 }

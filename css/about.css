@@ -2,8 +2,8 @@
 
 /* NAV TABS */
 #nav-tabs {
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
 }
 
 .nav-tabs {
@@ -16,7 +16,7 @@
 
 #nav-tabs .nav-item .nav-link {
     color: #747474;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     -webkit-transition: 0.1s all ease;
     -o-transition: 0.1s all ease;
     transition: 0.1s all ease;
@@ -28,7 +28,7 @@
 
 /* OVERVIEW CONTAINER */
 .about-content {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .about-content:last-child {
@@ -36,7 +36,7 @@
 }
 
 #nav-overview p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1.5rem;
     line-height: 1.75;
     color: #747474;
@@ -56,19 +56,19 @@
 }
 
 #nav-history .timeline h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 #nav-history .timeline p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #747474;
     margin-bottom: 0;
 }
 
 #nav-history .timeline .content-remark {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 #nav-history .timeline::after {
@@ -185,13 +185,13 @@
 
 /* PHILOSOPHY CONTAINER */
 #nav-philosophy h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #nav-philosophy p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #747474;
     margin-bottom: 0;
 }
@@ -205,9 +205,9 @@
 }
 
 #nav-vocation h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #nav-vocation h2:last-child {
@@ -216,10 +216,10 @@
 
 #nav-vocation h4,
 #nav-talents h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #nav-vocation .bottom-item,
@@ -227,7 +227,7 @@
     border: 1px solid #ddd;
     background-color: #005cb9;
     border-radius: 0.5rem;
-    padding: 3rem 2.5rem;
+    padding: 3rem 2rem;
     height: 100%;
 }
 
@@ -258,18 +258,18 @@
 
 #nav-care .panel .panel-heading {
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 #nav-care .panel .panel-heading a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
     width: 100%;
 }
 
 #nav-care .panel .panel-heading i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
@@ -281,7 +281,7 @@
 }
 
 #nav-care .panel .panel-body p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 0;
 }
