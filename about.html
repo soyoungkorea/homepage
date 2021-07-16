@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOYOUNG</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/media_about.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/iconfont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- NAVIGATION-PC -->
+        <header id="header-pc" class="d-none d-md-block">
+            <div class="content-inner">
+                <nav class="navbar navbar-expand-md bg-trans">
+                    <a class="navbar-brand" href="/index.html">
+                        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.5 76.8">
+                            <path
+                                d="M0 77V66h30c5 0 9-1 12-3s4-5 4-7l-2-6-6-3-10-3c-5-1-10-2-13-4-4-1-7-3-10-6-2-3-3-7-3-12 0-4 1-8 3-11s6-6 10-8 10-3 17-3h25v11H32c-6 0-10 1-13 3-2 2-4 5-4 8 0 2 1 4 3 5l6 3 9 3 14 4 9 6c2 3 4 7 4 12 0 4-1 8-4 11-2 3-5 6-10 8s-10 3-17 3H0zM209 48v29h-11V49L167 0h15l22 36 22-36h14l-31 48zM329 68c-6-6-9-14-9-25V0h14v44c0 14 6 22 19 22s19-8 19-22V0h14v43c0 11-3 19-9 25s-14 9-24 9-18-3-24-9zM463 0v77h-12l-44-55v55h-11V0h12l44 55V0h11zM529 38h13v29c-3 4-8 6-13 7-5 2-10 3-16 3-7 0-14-2-20-5a37 37 0 01-20-34c0-7 2-14 5-19 4-6 8-11 15-14 6-3 13-5 20-5h30v11h-29c-5 0-10 1-14 3-4 3-7 6-9 10-3 4-4 9-4 14s1 11 4 15 5 7 9 9c4 3 9 4 14 4 6 0 11-2 15-4V38zM105 0H67v38a38 38 0 1038-38zm0 66c-15 0-27-12-27-28V11h27a27 27 0 110 55zM233 38a38 38 0 0077 0V0h-39c-21 0-38 17-38 38zm11 0c0-15 12-27 27-27h28v27a27 27 0 11-55 0z" />
+                        </svg>
+                    </a>
+                    <div class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/brand.html">Brand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contents.html">Contents</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/support.html">Support</a>
+                            </li>
+                        </ul>
+                        <button class="dropdown">
+                            <a class="dropdown-link dropdown-toggle" href="#" id="dropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                KOR
+                                <i class="icofont-simple-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-sm-end" aria-labelledby="dropdown">
+                                <li><a class="dropdown-item" href="#">KOR</a></li>
+                                <li><a class="dropdown-item" href="#">ENG</a></li>
+                                <li><a class="dropdown-item" href="#">CHN</a></li>
+                            </ul>
+                        </button>
+                        <!-- <button type="button" class="search-btn">
+                                <i class="icofont-search-1"></i>
+                            </button> -->
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- END / NAVIGATION-PC -->
+
+        <!-- NAVIGATION-MO -->
+        <header id="header-mo" class="d-block d-md-none">
+            <div class="navbar-mo content-inner d-flex justify-content-between">
+                <div class="nav-button">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </div>
+                <a class="navbar-brand" href="index.html">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.5 76.8">
+                        <path
+                            d="M0 77V66h30c5 0 9-1 12-3s4-5 4-7l-2-6-6-3-10-3c-5-1-10-2-13-4-4-1-7-3-10-6-2-3-3-7-3-12 0-4 1-8 3-11s6-6 10-8 10-3 17-3h25v11H32c-6 0-10 1-13 3-2 2-4 5-4 8 0 2 1 4 3 5l6 3 9 3 14 4 9 6c2 3 4 7 4 12 0 4-1 8-4 11-2 3-5 6-10 8s-10 3-17 3H0zM209 48v29h-11V49L167 0h15l22 36 22-36h14l-31 48zM329 68c-6-6-9-14-9-25V0h14v44c0 14 6 22 19 22s19-8 19-22V0h14v43c0 11-3 19-9 25s-14 9-24 9-18-3-24-9zM463 0v77h-12l-44-55v55h-11V0h12l44 55V0h11zM529 38h13v29c-3 4-8 6-13 7-5 2-10 3-16 3-7 0-14-2-20-5a37 37 0 01-20-34c0-7 2-14 5-19 4-6 8-11 15-14 6-3 13-5 20-5h30v11h-29c-5 0-10 1-14 3-4 3-7 6-9 10-3 4-4 9-4 14s1 11 4 15 5 7 9 9c4 3 9 4 14 4 6 0 11-2 15-4V38zM105 0H67v38a38 38 0 1038-38zm0 66c-15 0-27-12-27-28V11h27a27 27 0 110 55zM233 38a38 38 0 0077 0V0h-39c-21 0-38 17-38 38zm11 0c0-15 12-27 27-27h28v27a27 27 0 11-55 0z" />
+                    </svg>
+                </a>
+                <button type="button" class="search-btn">
+                    <i class="icofont-search-1"></i>
+                </button>
+                <nav id="nav">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="brand.html" class="nav-link">
+                                Brand
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contents.html" class="nav-link">
+                                Contents
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Support
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="lang">
+                        <ul class="d-flex">
+                            <li><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                            <li><a href="">CHN</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- END / NAVIGATION-MO -->
+
+        <section>
+            <div class="content-inner">
+                <div id="nav-tabs">
+                    <ul class="nav justify-content-around" id="tab-subMenu" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-overview" type="button" role="tab" aria-controls="overview"
+                                aria-selected="true">Overview</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                                type="button" role="tab" aria-controls="history" aria-selected="false">History</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="nav-philosophy-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-philosophy" type="button" role="tab" aria-controls="philosophy"
+                                aria-selected="false">Philosophy</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="tab-content" id="nav-tabContent">
+                    <!-- OVERVIEW CONTAINER -->
+                    <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
+                        aria-labelledby="nav-overview-tab">
+                        <div class="about-content">
+                            <div class="about-img"></div>
+                        </div>
+                        <div class="about-content">
+                            <p>안녕하세요. ㈜소우영 대표 권미경입니다.</p>
+                            <p>단순하고 일반적인 필러와 화장품이 아닌 의학과 전문적 과학 기술이 접목된, 좀 더 안정적이고 차별화된 상품의 탄생을 위해 노력하는 ㈜소우영 입니다.</p>
+                            <p>바쁜 현대인들의 니즈를 반영하여 간편하면서도 안정적이고 확실한 효과를 한 번에 전달할 수 있는 “ONE-TIME INTERVENTION”의 신념을 가지고 탁월성, 완전성, 안전성,
+                                혁신성의 확고한 약속과 함께 단순히 외적 성장만을 추구하는 기업이 아닌, 고객의 진실한 파트너가 되는데 정진할 것입니다.</p>
+                            <p>건강하고 행복하게 살고자 하는 인류의 영원한 꿈을 실현하고자 최선을 다하겠습니다.<br> 글로벌 뷰티 기업 소우영에 아낌없는 사랑과 격려를 부탁드립니다.</p>
+                            <p>감사합니다.</p>
+                            <p class="strong">(주)소우영 대표이사<br> 권미경</p>
+                        </div>
+                    </div>
+                    <!-- HISTORY CONTAINER -->
+                    <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                        <div class="about-content">
+                            <div class="about-img"></div>
+                        </div>
+                        <div class="about-content">
+                            <div class="timeline">
+                                <div class="timeline-container dot-left">
+                                    <div class="content">
+                                        <h2>2021</h2>
+                                        <p>스킨 부스터 젬부 런칭</p>
+                                        <p>셀녹CELLNOC 중국, 러시아, 체코 수출</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-right">
+                                    <div class="content">
+                                        <h2>2019</h2>
+                                        <p>더마 스킨케어 브랜드 셀녹 CELLNOC 런칭</p>
+                                        <p>CELLNOC 3종 CPNP 허가</p>
+                                        <p>CELLNOC 3종 CFDA 허가</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-left">
+                                    <div class="content">
+                                        <h2>2017</h2>
+                                        <p>리제니스 400만개 수출</p>
+                                        <p>국내용 필러 상품명 엑스퍼트 Xspurt 변경</p>
+                                        <p>Rejeunesse KFDA 획득</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-right">
+                                    <div class="content">
+                                        <h2>2015</h2>
+                                        <p>HA 더마 필러 Rejeunesse 런칭</p>
+                                        <p>지속력 있는 가교된 다당류 겔 PCT 등록</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-left">
+                                    <div class="content">
+                                        <h2>2014</h2>
+                                        <p>의료기기 시험 완료</p>
+                                        <p>특허기술로 벤처 기업 인증</p>
+                                        <p class="content-remark">(KIBO로부터 가교된 HA하이드로겔 BDDE 제거 기술력)</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-right">
+                                    <div class="content">
+                                        <h2>2013</h2>
+                                        <p>(주)New Medic 공장 설립</p>
+                                        <p>식품의약품안전처 공식 전 임상 완료</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-left">
+                                    <div class="content">
+                                        <h2>2008</h2>
+                                        <p>신개발 신성분 필러 개발 착수</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container dot-right">
+                                    <div class="content">
+                                        <h2>2006</h2>
+                                        <p>소우영 설립</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PHILOSOPHY CONTAINER -->
+                    <div class="tab-pane fade" id="nav-philosophy" role="tabpanel" aria-labelledby="nav-philosophy-tab">
+                        <div id="btn-tabs">
+                            <ul class="nav nav-tabs justify-content-between" id="tab-phil" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="nav-vision-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-vision" type="button" role="tab" aria-controls="vision"
+                                        aria-selected="true">Vision</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-vocation-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-vocation" type="button" role="tab" aria-controls="vocation"
+                                        aria-selected="false">Vocation</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-care-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-care" type="button" role="tab" aria-controls="care"
+                                        aria-selected="false">Care Value</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="nav-talents-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-talents" type="button" role="tab" aria-controls="talents"
+                                        aria-selected="false">Talents</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- VISION TAB -->
+                            <div class="tab-pane fade show active" id="nav-vision" role="tabpanel"
+                                aria-labelledby="nav-vision-tab">
+                                <div class="about-content">
+                                    <h1>Customer-oriented<br>Total Solution</h1>
+                                    <p>
+                                        올바른 미의 실천, 끊임없는 미의 연구, 새로운 미의 창조를 통해 건강한 아름다움을 구현하는
+                                        <br>패러다임의 시작
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="about-content">
+                                    <h1>2030년 세계 3위 <br>사업그룹 달성을 목표</h1>
+                                    <p class="listBox">고객 만족을 위한 신속 지원</p>
+                                    <p class="listBox">세계 시장 진출 / 매출 규모 연 5조 이상</p>
+                                    <p class="listBox">시장선도 신제품 개발</p>
+                                    <p class="listBox">지속적인 원가 효율화</p>
+                                </div>
+                                <div class="about-content">
+                                    <h1>핵심 사업 영역</h1>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="listBox">
+                                                <p>필러, 화장품 생산 및 개발 (국내)</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="listBox">
+                                                <p>필러, 화장품 유통 및 판매 (국내, 해외)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-content">
+                                    <h1>핵심 Value Chain</h1>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="listBox">
+                                                <p>해외 수출</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="listBox">
+                                                <p>마케팅</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="listBox">
+                                                <p>상품 기획</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="listBox">
+                                                <p>서비스 지원</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="listBox">
+                                                <p>생산</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 lastBox">
+                                            <div class="listBox">
+                                                <p>연구 개발</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- VOCATION TAB -->
+                            <div class="tab-pane fade show" id="nav-vocation" role="tabpanel"
+                                aria-labelledby="nav-vocation-tab">
+                                <div class="about-content text-center">
+                                    <h2>노력의 땀, <strong class="mainColor-font">한방울</strong></h2>
+                                    <h2>젊은 열정의 피, <strong class="mainColor-font">한방울</strong></h2>
+                                    <h2>새로운 도전의 용기, <strong class="mainColor-font">한방울</strong></h2>
+                                    <h2>성공, 기쁨의 눈물, <strong class="mainColor-font">한방울</strong></h2>
+                                    <h2><strong class="mainColor-font">한방울, 한방울</strong> 모아<br>큰 세계로 나아갑니다.</h2>
+                                </div>
+                                <hr>
+                                <div class="about-content text-center">
+                                    <div class="row">
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>끊임없는 미의 연구</h4>
+                                                <p>끊임없는 생각과 질문을 반복하여<br> 고객의 아름다움과 건강을 위한<br> 지속적인 연구와 혁신을 이어 나갑니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>올바른 미의 실천</h4>
+                                                <p>끊엄격한 기준과 정직함으로<br> 건강한 아름다움을 추구하는 고객에게<br> 아름다움의 완성을 구현해 나갑니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>새로운 미의 창조</h4>
+                                                <p>소우영의 가치 실현으로 미의 영역을 혁신하여<br> 국내, 외 시장을 선도 할 패러다임의<br> 새로운 기준을 당당하게 제시합니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CARE TAB -->
+                            <div class="tab-pane fade show" id="nav-care" role="tabpanel" aria-labelledby="nav-care-tab">
+                                <div class="about-content">
+                                    <h1>Blue D.N.A</h1>
+                                    <p>
+                                        ‘장강의 뒷물이 앞 물을 밀어내며 흐른다<br class="d-block d-sm-none"> (長江後浪催前浪)’.<br>
+                                        필러, 화장품 후발주자인 ㈜소우영의 질주!<br class="d-block d-sm-none"> 글로벌 뷰티 산업의 패러다임을 선도하겠습니다.
+                                    </p>
+                                    <p>
+                                        흐르는 물은 푸르른 생명력이 넘쳐납니다. 언제나 멈추지 않고 나아갑니다(Development).
+                                        <br>
+                                        기존과 다른 새로움으로 채워갑니다(Novelty). 시냇물이 강물이 되어 바다로 흐르듯
+                                        발전하고 진보하여(Advancement) 온 세상의 중심이
+                                        되겠습니다.
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="about-content">
+                                    <div class="panel-group" id="dropTab" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading d-flex" role="tab" id="headingOne">
+                                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#dropTab"
+                                                    href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Development [성장]
+                                                </a>
+                                                <i class="icofont-simple-down"></i>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                                aria-labelledby="headingOne">
+                                                <div class="panel-body">
+                                                    <p>끈임없는 생명력</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading d-flex" role="tab" id="headingTwo">
+                                                <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                    data-bs-parent="#dropTab" href="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                    Novelty [참신]
+                                                </a>
+                                                <i class="icofont-simple-down"></i>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    <p>새로운 패러다임 선도</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading d-flex" role="tab" id="headingThree">
+                                                <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                    data-bs-parent="#dropTab" href="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                    Advancement [진보]
+                                                </a>
+                                                <i class="icofont-simple-down"></i>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingThree">
+                                                <div class="panel-body">
+                                                    <p>중단없는 혁신</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="nav-talents" role="tabpanel"
+                                aria-labelledby="nav-talents-tab">
+                                <div class="about-content">
+                                    <h1>전문성을 바탕으로<br> 소우영의 핵심가치를 실현하는<br class="d-block d-sm-none"> 젊은 인재</h1>
+                                    <p>
+                                        People with Blue D.N.A
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="about-content text-center">
+                                    <div class="row">
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>Positive<br> Challenger</h4>
+                                                <h4>긍정적인 도전가</h4>
+                                                <p>주인의식을 가지고<br> 열린 마음으로 미래에 도전합니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>Enterprising<br> Creator</h4>
+                                                <h4>진취적인 창조자</h4>
+                                                <p>끊합리적인 분석, 창의적인 해결 능력을 발휘해<br> 새로운 패러다임을 제시합니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-itemBox col-xl-4">
+                                            <div class="bottom-item">
+                                                <h4>Future-oriented<br> Expert</h4>
+                                                <h4>미래지향적 전문가</h4>
+                                                <p>주체적 경험과 학습을 통해 새로운 가치를<br> 끊임없이 창출합니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="content-inner">
+                <p class="company">SOYOUNG Co.,Ltd.</p>
+                <div class="footer-content">
+                    <div class="footer-item d-flex">
+                        <p><a href=""> 사이트맵</a></p><span>|</span>
+                        <p><a href=""> 고객센터</a></p><span>|</span>
+                        <p><a href=""> 개인정보취급방침</a></p><span>|</span>
+                        <p><a href=""> 인재채용</a></p>
+                    </div>
+                    <div class="footer-item">
+                        <p class="footer-text">
+                            대표자 : 이병찬<span>|</span>
+                            주소 : 서울 강남구 강남대로 624 507호<br class="d-block d-md-none"> (신사동, ICT 빌딩)
+                        </p>
+                    </div>
+                </div>
+        
+                <p class="copyright">© SOYOUNG. Copyright All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="/js/custom_page.js"></script>
+
+</body>
+
+</html>
