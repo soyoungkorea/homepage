@@ -1,0 +1,293 @@
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    section .content-inner hr {
+        margin: 2rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    #support-content .support-title,
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1,
+    #contact-content .contact-title h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-title p,
+    #contact-content .contact-title p {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button button {
+        border-radius: 0.25rem;
+        padding: 1rem;
+    }
+
+    #support-content .support-button .support-item h3 {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 0.75rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .google-map iframe {
+        border: 0;
+        width: 100%;
+        height: 40vh;
+    }
+
+    /* CONTACT-FORM */
+    #contact-form {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+        border: 1px solid #eee;
+    }
+
+    #contact-form h3 {
+        display: block;
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+    }
+    
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form input[type="tel"],
+    #contact-form input[type="url"],
+    #contact-form textarea {
+        font-size: 1rem;
+        margin: 0 0 1rem;
+        padding: 0.75rem;
+    }
+
+    #contact-form textarea {
+        height: 10rem;
+    }
+
+    #contact-submit {
+        font-size: 0.75rem;
+        margin: 0 0 1rem;
+        padding: 0.75rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+
+    section .content-inner hr {
+        margin: 4rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title,
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1,
+    #contact-content .contact-title h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-title p,
+    #contact-content .contact-title p {
+        font-size: 1.25rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button button {
+        border-radius: 0.25rem;
+        padding: 1rem;
+    }
+
+    #support-content .support-button .support-item h3 {
+        font-size: 1.25rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 1rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 1rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1.25rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    section .content-inner hr {
+        margin: 4rem 0;
+    }
+
+    /* SUPPORT CONTAINER */
+    #support-content {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title,
+    #contact-content .contact-title {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title h1,
+    #contact-content .contact-title h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-title p,
+    #contact-content .contact-title p {
+        font-size: 1.5rem;
+    }
+
+    #support-content .support-button .support-element {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-button .support-item h3 {
+        font-size: 1.75rem;
+    }
+
+    #support-content .support-button .support-item p {
+        font-size: 1.5rem;
+    }
+
+    #support-content .support-button .support-item {
+        margin-bottom: 2rem;
+    }
+
+    #support-content .support-button .support-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* CONTACT CONTAINER */
+    #contact-content {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .google-map,
+    #contact-content .contact-map .contact-item {
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-map .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    #contact-content .contact-map .contact-item h3 {
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    #contact-content .contact-map .contact-item p {
+        font-size: 1.5rem;
+    }
+
+    #contact-content .contact-map .contact-item p:last-child {
+        margin-bottom: 0;
+    }
+
+}

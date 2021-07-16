@@ -1,0 +1,128 @@
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+
+    /* CAROUSEL-SLIDE */
+    #carousel .carousel-text h1 {
+        font-size: 1.5rem;
+    }
+
+    #carousel .carousel-img {
+        padding-top: calc(16 / 9 * 70%);
+    }
+
+    #carousel .carousel-button {
+        padding: 0.5rem 1rem;
+        margin-top: 1.5rem;
+        border: 0.5px solid #fff;
+    }
+
+    #carousel .carousel-button a {
+        font-size: 1rem;
+    }
+
+    #carousel .control-inner {
+        bottom: 1rem;
+    }
+
+    #carousel .control .control-prev,
+    #carousel .control .control-next {
+        font-size: 1rem;
+    }
+
+    section h1 {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #brandCarousel .brand-item {
+        min-width: 85%;
+    }
+
+    #brandCarousel .brand-item h4 {
+        font-size: 1.25rem;
+    }
+
+    #brandCarousel .brand-item p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.9px) {
+    
+    #header-pc .navbar-nav .nav-link {
+        padding: 1rem 0.5rem ;
+        font-size: 1.25rem ;
+    }
+
+    /* CAROUSEL SLIDE */
+    #carousel .carousel-img {
+        padding-top: calc(3 / 4 * 100%);
+    }
+
+    #carousel .carousel-button {
+        padding: 0.5rem 1rem;
+        margin-top: 1.5rem;
+        border: 0.5px solid #fff;
+    }
+
+    #carousel .control-inner {
+        bottom: 1.5rem;
+    }
+
+    /* BRAND CAROUSEL */
+
+    section h1 {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #brandCarousel .brand-item {
+        min-width: 40%;
+    } 
+
+    #brandCarousel .brand-item h4 {
+        font-size: 1.5rem;
+    }
+
+    #brandCarousel .brand-item p,
+    #brandCarousel .more-btn a {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* CAROUSEL-SLIDE */
+    
+    #carousel .carousel-img {
+        padding-top: calc(3 / 4 * 100%);
+    }
+    
+    /* BRAND CAROUSEL */
+
+    section h1 {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #brandCarousel .brand-img {
+        padding-top: calc(100% - 100px);
+    }
+
+    #brandCarousel .brand-item {
+        min-width: 40%;
+    }
+
+    #brandCarousel .brand-item h4 {
+        font-size: 1.5rem;
+    }
+
+    #brandCarousel .brand-item p,
+    #brandCarousel .more-btn a {
+        font-size: 1rem;
+    }
+    
+}

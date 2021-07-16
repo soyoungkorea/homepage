@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* NAV TABS */
+#nav-tabs {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+#nav-tabs .nav-item {
+    border: none !important;
+}
+
+#nav-tabs .nav-item .nav-link {
+    color: #747474;
+    font-size: 1.25rem;
+    -webkit-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+    transition: 0.1s all ease;
+}
+
+#nav-tabs .nav-item .active.active {
+    color: #005cb9;
+}
+
+/* BRAND CONTAINER */
+.brand-content {
+    margin-bottom: 6rem;
+}
+
+#nav-filler h1,
+#nav-cosmetic h1,
+#nav-booster h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#nav-filler h2,
+#nav-cosmetic h2,
+#nav-booster h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#nav-filler p,
+#nav-cosmetic p,
+#nav-booster p {
+    font-size: 1.25rem;
+    color: #747474;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+}
+
+#nav-filler p:last-child,
+#nav-cosmetic p:last-child,
+#nav-booster p:last-child {
+    margin-bottom: 0rem !important;
+}
+
+#nav-filler ul li,
+#nav-cosmetic ul li,
+#nav-booster ul li {
+    font-size: 1.25rem;
+    color: #747474;
+    padding-bottom: 0.5rem;
+    list-style: square;
+}
+
+.filler-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(9 / 16 * 100%);
+    background: url('/image/info_filler_img_.png') center center / cover no-repeat;
+}
+
+.cosmetic-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(1 / 1 * 100%);
+    background: url('/image/info_cosmetic_img.png') center center / cover no-repeat;
+}
+
+.booster-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(9 / 16 * 100%);
+    background: url('/image/info_booster_img.png') center center / cover no-repeat;
+}
+
+/* PRODUCT LINK BUTTON */
+.product-link {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.product-link .product-item h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.product-link .product-item h5 {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 0;
+}
