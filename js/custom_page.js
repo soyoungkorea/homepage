@@ -53,3 +53,61 @@ $(document).ready(function () {
     });
 
 });
+
+$('.thumbnail').click(function(){
+  	$('.modal-body').empty();
+  	var title = $(this).parent('a').attr("title");
+  	$('.modal-title').html(title);
+  	$($(this).parents('div').html()).appendTo('.modal-body');
+    $('#photoModal').modal({ show: true });
+});
+
+
+// $('#next-btn').click(function() {
+//  var link = $('.modal-body a');
+//   var number = parseInt(link.attr('title').match(/\S+$/));
+//   number++;
+//   if(number === 13) {
+// 	number = 1;
+//   }
+//   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
+//   $('.modal-title').text('Image ' + number);
+// });
+
+// $('#prev-btn').click(function() {
+//  var link = $('.modal-body a');
+//   var number = parseInt(link.attr('title').match(/\S+$/));
+//   number--;
+//   if(number === 0) {
+// 	number = 12;
+//   }
+//   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
+//   $('.modal-title').text('Image ' + number);
+// });
+
+
+$(function () {
+    $(".support-link").click(function () {
+        $(".email_template").not("#emailForm" + $(this).attr("target")).hide();
+        $("#emailForm" + $(this).attr("target")).toggle();
+    });
+});
+
+// const req = new XMLHttpRequest();
+// req.open("GET", "/json/photo_list.json");
+// req.onreadystatechange = function () {
+//     if (this.readyState == 4) {
+//         // console.log(this.response);
+//         const data = JSON.parse(this.response);
+//         for (let i = 0; i < data.length; i++) {
+//             const div = document.createElement("div");
+//             div.setAttribute("class", "image");
+//             const img = document.createElement("img");
+//             img.src = data[i];
+//             div.appendChild(img);
+//             document.querySelector(".photo-img").appendChild(div);
+//         }
+//     }
+// }
+// req.send();
+

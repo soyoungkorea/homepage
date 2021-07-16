@@ -52,7 +52,7 @@
 @media (min-width: 768px) and (max-width: 1023.9px) {
     
     #header-pc .navbar-nav .nav-link {
-        padding: 1rem 1rem ;
+        padding: 1rem 0.5rem ;
         font-size: 1.25rem ;
     }
 

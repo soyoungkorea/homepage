@@ -31,7 +31,7 @@
         margin-bottom: 1rem;
     }
 
-    #support-content .support-button .support-link {
+    #support-content .support-button button {
         border-radius: 0.25rem;
         padding: 1rem;
     }
@@ -89,6 +89,39 @@
         height: 40vh;
     }
 
+    /* CONTACT-FORM */
+    #contact-form {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+        border: 1px solid #eee;
+    }
+
+    #contact-form h3 {
+        display: block;
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+    }
+    
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form input[type="tel"],
+    #contact-form input[type="url"],
+    #contact-form textarea {
+        font-size: 1rem;
+        margin: 0 0 1rem;
+        padding: 0.75rem;
+    }
+
+    #contact-form textarea {
+        height: 10rem;
+    }
+
+    #contact-submit {
+        font-size: 0.75rem;
+        margin: 0 0 1rem;
+        padding: 0.75rem;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
@@ -123,7 +156,7 @@
         margin-bottom: 1rem;
     }
 
-    #support-content .support-button .support-link {
+    #support-content .support-button button {
         border-radius: 0.25rem;
         padding: 1rem;
     }

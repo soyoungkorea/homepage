@@ -30,17 +30,21 @@
 }
 
 #header-pc .logo:hover {
-    fill: #005cb9 !important;
+    fill: #BE9B5F !important;
+}
+
+.nav-scroll .logo:hover {
+    fill: red !important;
 }
 
 #header-pc .navbar-nav .nav-link {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     font-size: 1.5rem;
     color: #222;
 }
 
 #header-pc .navbar-nav .nav-link:hover {
-    color: #005cb9;
+    color: #BE9B5F !important;
 }
 
 #header-pc .dropdown {
@@ -66,7 +70,7 @@
 
 #header-pc .dropdown .icofont-simple-down {
     display: inline-block;
-    margin-left: 0.5rem;
+    margin-left: 0.25rem;
 }
 
 #header-pc .dropdown .dropdown-menu[data-bs-popper] {
@@ -86,13 +90,18 @@
 #header-pc .search-btn {
     background-color: transparent;
     border: none;
+    margin-left: 1rem;
 }
 
-#header-pc .search-btn>i {
+#header-pc .search-btn i {
     color: #222;
     -webkit-transition: 0.3s all ease;
     -o-transition: 0.3s all ease;
     transition: 0.3s all ease;
+}
+
+#header-pc .search-btn i:hover {
+    color: #BE9B5F !important;
 }
 
 #header-pc .lang>ul>li>a:focus,
@@ -187,7 +196,7 @@
     background-color: #fff !important;
 }
 
-.nav-open #header-mo .search-btn>i {
+.nav-open #header-mo .search-btn i {
     color: #fff !important;
 }
 
@@ -278,8 +287,8 @@
 @media (min-width: 768px) and (max-width: 1023.9px) {
 
     #header-pc .navbar-nav .nav-link {
-        padding: 1rem 1rem;
-        font-size: 1.125rem;
+        padding: 1rem 0.5rem;
+        font-size: 1.25rem;
         color: #222;
     }
 

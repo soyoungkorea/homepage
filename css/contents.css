@@ -77,3 +77,15 @@
 .ratio-item {
     padding-bottom: 1rem;
 }
+
+.ratio-item .photo-img img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-dialog {
+    max-width: 100%;
+    width: auto;
+    display: table;
+    text-align: center;
+}

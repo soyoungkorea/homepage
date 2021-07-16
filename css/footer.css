@@ -63,8 +63,8 @@ footer span {
     footer span {
         font-size: 0.75rem;
         font-weight: lighter;
-        padding-left: 0.5rem !important;
-        padding-right: 0.5rem !important;
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
     }
 
     .footer-item {
@@ -113,6 +113,10 @@ footer span {
 
 
 @media (min-width: 1024px) and (max-width: 1280px) {
+
+    footer {
+        height: 16rem;
+    }
 
     footer .company {
         font-size: 1.5rem !important;
