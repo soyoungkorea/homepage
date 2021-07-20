@@ -15,6 +15,7 @@
 }
 
 #nav-tabs .nav-item .nav-link {
+    cursor: pointer;
     color: #747474;
     font-size: 1.25rem;
     -webkit-transition: 0.1s all ease;

@@ -389,9 +389,13 @@ section h1 {
 
 #brandCarousel .brand-item {
     min-width: 24%;
-    margin: 0 0.25rem;
+    margin: 0 0.5rem;
     text-align: center;
     border-radius: 50%;
+}
+
+#brandCarousel .brand-item .brand-img {
+    width: 100%;
 }
 
 #brandCarousel .brand-item h4 {
@@ -400,7 +404,7 @@ section h1 {
 }
 
 #brandCarousel .brand-item p {
-    font-size: 1rem;
+    font-size: 0.825rem;
     color: #747474;
 }
 

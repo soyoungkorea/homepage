@@ -15,6 +15,7 @@
 }
 
 #nav-tabs .nav-item .nav-link {
+    cursor: pointer;
     color: #747474;
     font-size: 1.25rem;
     -webkit-transition: 0.1s all ease;
@@ -79,13 +80,17 @@
 }
 
 .ratio-item .photo-img img {
+    width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
 .modal-dialog {
-    max-width: 100%;
-    width: auto;
+    width: 100%;
     display: table;
     text-align: center;
+}
+
+.modal-body img {
+    max-width: 960px;
 }

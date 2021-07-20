@@ -73,16 +73,16 @@
 }
 
 .product-info h4 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.125rem;
 }
 
 .product-info p {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     color: #747474;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 .product-info p:last-child {

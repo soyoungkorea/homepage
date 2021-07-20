@@ -1,7 +1,6 @@
-$(function () {
-    $(".nav-button").click(function () {
-        $("body").toggleClass("nav-open");
-    });
+
+$(".nav-button").click(function () {
+    $("body").toggleClass("nav-open");
 });
 
 $(function () {
@@ -36,22 +35,19 @@ $(function () {
     });
 });
 
-$(document).ready(function () {
 
-    $(".filter-button").click(function () {
-        var value = $(this).attr('data-filter');
+$(".filter-button").click(function () {
+    var value = $(this).attr('data-filter');
 
-        if (value == "all") {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-        } else {
-            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.' + value).hide('3000');
-            $('.filter').filter('.' + value).show('3000');
-        }
-    });
-
+    if (value == "all") {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    } else {
+        //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+        //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.' + value).hide('3000');
+        $('.filter').filter('.' + value).show('3000');
+    }
 });
 
 $('.thumbnail').click(function(){
@@ -63,35 +59,12 @@ $('.thumbnail').click(function(){
 });
 
 
-// $('#next-btn').click(function() {
-//  var link = $('.modal-body a');
-//   var number = parseInt(link.attr('title').match(/\S+$/));
-//   number++;
-//   if(number === 13) {
-// 	number = 1;
-//   }
-//   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
-//   $('.modal-title').text('Image ' + number);
-// });
-
-// $('#prev-btn').click(function() {
-//  var link = $('.modal-body a');
-//   var number = parseInt(link.attr('title').match(/\S+$/));
-//   number--;
-//   if(number === 0) {
-// 	number = 12;
-//   }
-//   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
-//   $('.modal-title').text('Image ' + number);
-// });
-
-
-$(function () {
-    $(".support-link").click(function () {
-        $(".email_template").not("#emailForm" + $(this).attr("target")).hide();
-        $("#emailForm" + $(this).attr("target")).toggle();
-    });
+// Email Button Form
+$(".support-link").click(function () {
+    $(".email_template").not("#emailForm" + $(this).attr("target")).hide();
+    $("#emailForm" + $(this).attr("target")).toggle();
 });
+
 
 // const req = new XMLHttpRequest();
 // req.open("GET", "/json/photo_list.json");
