@@ -113,7 +113,7 @@
     }
 
     #brandCarousel .brand-item {
-        min-width: 40%;
+        min-width: 24%;
     }
 
     #brandCarousel .brand-item h4 {
@@ -122,7 +122,7 @@
 
     #brandCarousel .brand-item p,
     #brandCarousel .more-btn a {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     
 }
