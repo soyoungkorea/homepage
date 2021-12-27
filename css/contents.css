@@ -82,7 +82,12 @@
 .ratio-item .photo-img img {
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
+    transition: .5s ease;
+}
+
+.ratio-item .photo-img img:hover {
+    opacity: 0.3;
 }
 
 .modal-dialog {
