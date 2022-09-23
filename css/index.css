@@ -369,7 +369,6 @@ section h1 {
 #brandCarousel {
     display: flex;
     overflow: scroll;
-    overflow: hidden;
     overflow-x: auto;
     -ms-overflow-style: none;
     /* Hide the scrollbar for MS Edge */
