@@ -93,6 +93,14 @@
     background: url('/image/info_booster_img.png') center center / cover no-repeat;
 }
 
+.gloves-info-img {
+    width: 100%;
+    height: 0;
+    padding-top: calc(9 / 16 * 100%);
+    background: url('/image/info_gloves_img.png') center center / cover no-repeat;
+}
+
+
 /* PRODUCT LINK BUTTON */
 .product-link {
     display: block;

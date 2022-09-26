@@ -157,3 +157,8 @@
 .img-gemvous {
     background: url('/image/gemvous_01.png') center center / cover no-repeat;
 }
+
+/* Gloves IMAGE */
+.img-gloves {
+    background: url('/image/gloves_01.png') center center / cover no-repeat;
+}
