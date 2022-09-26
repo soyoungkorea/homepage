@@ -34,7 +34,8 @@
 
 #nav-filler h1,
 #nav-cosmetic h1,
-#nav-booster h1 {
+#nav-booster h1,
+#nav-gloves h1 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -42,7 +43,8 @@
 
 #nav-filler h2,
 #nav-cosmetic h2,
-#nav-booster h2 {
+#nav-booster h2,
+#nav-gloves h2  {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -50,7 +52,8 @@
 
 #nav-filler p,
 #nav-cosmetic p,
-#nav-booster p {
+#nav-booster p,
+#nav-gloves p  {
     font-size: 1.25rem;
     color: #747474;
     line-height: 1.75;
@@ -59,13 +62,15 @@
 
 #nav-filler p:last-child,
 #nav-cosmetic p:last-child,
-#nav-booster p:last-child {
+#nav-booster p:last-child,
+#nav-gloves p:last-child  {
     margin-bottom: 0rem !important;
 }
 
 #nav-filler ul li,
 #nav-cosmetic ul li,
-#nav-booster ul li {
+#nav-booster ul li,
+#nav-gloves ul li {
     font-size: 1.25rem;
     color: #747474;
     padding-bottom: 0.5rem;
