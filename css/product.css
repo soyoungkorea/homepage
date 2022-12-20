@@ -116,6 +116,18 @@
 }
 
 /* FILLER IMAGE */
+.img-keen-cozy {
+    background: url('/image/keen_01.png') center center / cover no-repeat;
+}
+.img-keen-vivid {
+    background: url('/image/keen_02.png') center center / cover no-repeat;
+}
+.img-keen-sublime {
+    background: url('/image/keen_03.png') center center / cover no-repeat;
+}
+.img-dazur-cozy {
+    background: url('/image/dazur_01.png') center center / cover no-repeat;
+}
 .img-rjns-sparkle {
     background: url('/image/rjns_01.png') center center / cover no-repeat;
 }
