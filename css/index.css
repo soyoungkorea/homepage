@@ -385,8 +385,8 @@ section h1 {
     background-color: #e4e4e4;
     border-radius: 100px;
 }
-.#brandCarousel::-webkit-scrollbar-thumb {
-    background-color: #d4aa70;
+#brandCarousel::-webkit-scrollbar-thumb {
+    background-color: #d2d2d2;
     border-radius: 100px;
 }
 
