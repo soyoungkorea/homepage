@@ -368,16 +368,16 @@ section h1 {
 
 #brandCarousel {
     display: flex;
-    overflow: scroll;
-    overflow-x: auto;
+    overflow-x: scroll;
     overflow-y: hidden;
     height: fit-content;
     width: fit-content;
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 #brandCarousel::-webkit-scrollbar {
-    height: thin;
+    height: 5px;
 }
 
 #brandCarousel::-webkit-scrollbar-track {
