@@ -370,20 +370,24 @@ section h1 {
     display: flex;
     overflow: scroll;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    /* Hide the scrollbar for MS Edge */
-    scrollbar-width: none;
-    /* Hide the scrollbar for Mozilla Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
     height: fit-content;
     width: fit-content;
     width: 100%;
 }
 
 #brandCarousel::-webkit-scrollbar {
-    display: none;
-    /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
-    -webkit-overflow-scrolling: touch;
-    /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+    width: 16px;
+}
+
+#brandCarousel::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+.#brandCarousel::-webkit-scrollbar-thumb {
+    background-color: #d4aa70;
+    border-radius: 100px;
 }
 
 #brandCarousel .brand-item {
