@@ -379,10 +379,7 @@ section h1 {
     height: 10px;
 }
 
-#brandCarousel::-webkit-scrollbar-track {
-    background-color: #fafafa;
-    border-radius: 100px;
-}
+
 #brandCarousel::-webkit-scrollbar-thumb {
     background-color: #d2d2d2;
     border-radius: 100px;
