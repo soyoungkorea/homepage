@@ -8,7 +8,8 @@
 
 #btn-tabs .nav-item {
     width: 50%;
-    padding: 0 0.5rem 0.5rem 0.5rem;
+    margin: 0 0.5rem 0.5rem 0;
+    flex-wrap: wrap;
 }
 
 #btn-tabs .nav-item:first-child {
