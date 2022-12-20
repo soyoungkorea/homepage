@@ -377,7 +377,7 @@ section h1 {
 }
 
 #brandCarousel::-webkit-scrollbar {
-    width: thin;
+    height: thin;
 }
 
 #brandCarousel::-webkit-scrollbar-track {
@@ -391,7 +391,7 @@ section h1 {
 
 #brandCarousel .brand-item {
     min-width: 19%;
-    margin: 0 1.5rem;
+    margin: 0 2rem;
     text-align: center;
 
 }
