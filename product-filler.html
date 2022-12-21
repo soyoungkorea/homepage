@@ -52,6 +52,63 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
         
+        	
+<script>
+let key = "${param.key}";
+console.log(key);
+if(key === "nav-keen"){
+	
+    $("#nav-xspurt-tab").removeClass("active");
+	$("#nav-rjns-tab").removeClass("active");
+	$("#nav-dazur-tab").removeClass("active");
+	$("#nav-keen-tab").addClass("active");
+	
+	$("#nav-xspurt").removeClass("show active");
+    $("#nav-rjns").removeClass("show active");
+	$("#nav-dazur").removeClass("show active");
+	$("#nav-keen").addClass("show active");
+	
+}else if(key === "nav-dazur"){
+	
+    $("#nav-xspurt-tab").removeClass("active");
+	$("#nav-rjns-tab").removeClass("active");
+	$("#nav-keen-tab").removeClass("active");
+	$("#nav-dazur-tab").addClass("active");
+	
+	$("#nav-xspurt").removeClass("show active");
+    $("#nav-rjns").removeClass("show active");
+	$("#nav-keen").removeClass("show active");
+	$("#nav-dazur").addClass("show active");
+	
+}else if(key === "nav-rjns"){
+	
+	$("#nav-xspurt-tab").removeClass("active");
+	$("#nav-keen-tab").removeClass("active");
+	$("#nav-dazur-tab").removeClass("active");
+	$("#nav-rjns-tab").addClass("active");
+	
+	$("#nav-xspurt").removeClass("show active");
+    $("#nav-keen").removeClass("show active");
+	$("#nav-dazur").removeClass("show active");
+	$("#nav-rjns").addClass("show active");
+	
+}
+    
+}else if(key === "nav-xspurt"){
+	
+	$("#nav-keen-tab").removeClass("active");
+	$("#nav-rjns-tab").removeClass("active");
+	$("#nav-dazur-tab").removeClass("active");
+	$("#nav-xspurt-tab").addClass("active");
+	
+	$("#nav-keen").removeClass("show active");
+    $("#nav-rjns").removeClass("show active");
+	$("#nav-dazur").removeClass("show active");
+	$("#nav-xspurt").addClass("show active");
+	
+}
+</script>
+
    
 </head>
 
@@ -166,29 +223,29 @@
             <div class="content-inner">
                 <!-- BUTTON TABS -->
                 <div id="btn-tabs">
-                    <ul class="nav" id="proTab" role="tablist">
-                       <li class="nav-item">
+                    <ul class="nav nav-tabs" id="proTab" role="tablist">
+                       <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="nav-keen-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-keen" type="button" role="tab" aria-controls="keen"
                                 aria-selected="true">
                                 A-JAX KEEN
                             </button>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="presentation">
                             <button class="nav-link" id="nav-dazur-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-dazur" type="button" role="tab" aria-controls="dazur"
                                 aria-selected="false">
                                 A-JAX D'azur
                             </button>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="presentation">
                             <button class="nav-link" id="nav-rjns-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-rjns" type="button" role="tab" aria-controls="rjns"
                                 aria-selected="false">
                                 Rejeunesse
                             </button>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" role="presentation">
                             <button class="nav-link" id="nav-xspurt-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-xspurt" type="button" role="tab" aria-controls="xspurt"
                                 aria-selected="false">
