@@ -52,25 +52,7 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
         
-    <!--script-->
-    <script>
-    $(function(){
-    if (location.hash == "#nav-keen"){
-        $('.nav-tabs').find('li').eq(0).addClass('active').siblings().removeClass();
-        $('.tab-content').find('#nav-keen').addClass('active in').siblings().removeClass('active in');
-    } else if(location.hash == "#nav-dazur"){
-        $('.nav-tabs').find('li').eq(1).addClass('active').siblings().removeClass();
-        $('.tab-content').find('#nav-dazur').addClass('active in').siblings().removeClass('active in');
-    } else if(location.hash == "#nav-rjns"){
-        $('.nav-tabs').find('li').eq(2).addClass('active').siblings().removeClass();
-        $('.tab-content').find('#nav-rjns').addClass('active in').siblings().removeClass('active in');
-    } else if(location.hash == "#nav-xspurt"){
-        $('.nav-tabs').find('li').eq(3).addClass('active').siblings().removeClass();
-        $('.tab-content').find('#nav-xspurt').addClass('active in').siblings().removeClass('active in');
-    }
-})
-</script>
-
+   
 </head>
 
 
@@ -109,10 +91,10 @@
                                 KOR
                                 <i class="icofont-simple-down"></i>
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-sm-end" aria-labelledby="dropdown">
-                                <li><a href="/index.html">KOR</a></li>
-                                <li><a href="/lang/eng/index.html">ENG</a></li>
-                                <li><a href="/lang/chn/index.html">CHN</a></li>
+                               <ul class="dropdown-menu dropdown-menu-sm-end" aria-labelledby="dropdown">
+                                <li><a class="dropdown-item" href="/index.html">KOR</a></li>
+                                <li><a class="dropdown-item" href="/lang/eng/index.html">ENG</a></li>
+                                <li><a class="dropdown-item" href="/lang/chn/index.html">CHN</a></li>
                             </ul>
                         </button>
                         <button type="button" class="search-btn">
@@ -184,7 +166,7 @@
             <div class="content-inner">
                 <!-- BUTTON TABS -->
                 <div id="btn-tabs">
-                    <ul class="nav nav-tabs" id="proTab" role="tablist">
+                    <ul class="nav" id="proTab" role="tablist">
                        <li class="nav-item active">
                             <button class="nav-link active" id="nav-keen-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-keen" type="button" role="tab" aria-controls="keen"
