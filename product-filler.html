@@ -38,18 +38,18 @@
     <!-- script -->   
     <script>
 	$(function() {
-		if (location.hash == "#tab01") {
+		if (location.hash == "#nav-keen") {
 			$('.nav-tabs').find('li').eq(0).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#tab01').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#tab02") {
+			$('.tab-content').find('#nav-keen').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#nav-dazur") {
 			$('.nav-tabs').find('li').eq(1).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#tab02').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#tab03") {
+			$('.tab-content').find('#nav-dazur').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#nav-rjns") {
 			$('.nav-tabs').find('li').eq(2).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#tab03').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#tab04") {
+			$('.tab-content').find('#nav-rjns').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#nav-xspurt") {
 			$('.nav-tabs').find('li').eq(3).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#tab04').addClass('active in').siblings().removeClass('active in');
+			$('.tab-content').find('#nav-xspurt').addClass('active in').siblings().removeClass('active in');
 		}
 	})
 
@@ -171,9 +171,9 @@
                     </ul>
                     <div class="lang">
                         <ul class="d-flex">
-                            <li><a href="">KOR</a></li>
-                            <li><a href="">ENG</a></li>
-                            <li><a href="">CHN</a></li>
+                            <li><a href="/index.html">KOR</a></li>
+                            <li><a href="/lang/eng/index.html">ENG</a></li>
+                            <li><a href="/lang/chn/index.html">CHN</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -187,7 +187,7 @@
                 <div id="btn-tabs">
                     <ul class="nav" id="proTab" role="tablist">
                        <li class="nav-item">
-                           <a data-toggle="tab" href="#keen">
+                           <a data-toggle="tab" href="#nav-keen">
                             <button class="nav-link active" id="nav-keen-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-keen" type="button" role="tab" aria-controls="keen"
                                 aria-selected="true">
@@ -196,7 +196,7 @@
                            </a>
                         </li>
                         <li class="nav-item">
-                           <a data-toggle="tab" href="#dazur">
+                           <a data-toggle="tab" href="#nav-dazur">
                             <button class="nav-link" id="nav-dazur-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-dazur" type="button" role="tab" aria-controls="dazur"
                                 aria-selected="true">
@@ -205,7 +205,7 @@
                          </a>
                         </li>
                         <li class="nav-item">
-                           <a data-toggle="tab" href="#rjns">
+                           <a data-toggle="tab" href="#nav-rjns">
                             <button class="nav-link" id="nav-rjns-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-rjns" type="button" role="tab" aria-controls="rjns"
                                 aria-selected="true">
@@ -214,7 +214,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                           <a data-toggle="tab" href="#xpurt">
+                           <a data-toggle="tab" href="#nav-xpurt">
                             <button class="nav-link" id="nav-xspurt-tab" data-bs-toggle="tab"
                                 data-bs-target="#nav-xspurt" type="button" role="tab" aria-controls="xspurt"
                                 aria-selected="true">
