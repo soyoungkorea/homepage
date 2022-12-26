@@ -386,7 +386,8 @@ section h1 {
 }
 
 #brandCarousel::-webkit-scrollbar-track {
-    background-color: #fafafa;
+    background-color: #efefef;
+    border-radius: 100px;
 }
 
 #brandCarousel .brand-item {
