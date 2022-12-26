@@ -376,6 +376,7 @@ section h1 {
 }
 
 #brandCarousel::-webkit-scrollbar {
+    background-color: #fafafa;
     height: 10px;
 }
 
