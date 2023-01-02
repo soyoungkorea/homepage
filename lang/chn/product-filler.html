@@ -49,30 +49,8 @@
         crossorigin="anonymous"></script>
         
         
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-
-<script>
-	$(function() {
-		if (location.hash == "#nav-keen") {
-			$('.nav-tabs').find('li').eq(0).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#nav-keen').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#nav-dazur") {
-			$('.nav-tabs').find('li').eq(1).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#nav-dazur').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#nav-rjns") {
-			$('.nav-tabs').find('li').eq(2).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#nav-rjns').addClass('active in').siblings().removeClass('active in');
-		} else if (location.hash == "#nav-xspurt") {
-			$('.nav-tabs').find('li').eq(3).addClass('active').siblings().removeClass();
-			$('.tab-content').find('#nav-xspurt').addClass('active in').siblings().removeClass('active in');
-		}
-	})
-
-	$('html, body').animate({ scrollTop: 0 }, 'fast'); // 페이지 이동후 지정된 #의 시작점으로 이동하기에 이동후 브라우저의 최상단으로 이동하게 처리
-</script>
     
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -194,25 +172,25 @@
                 <!-- BUTTON TABS -->
                 <div id="btn-tabs">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#nav-keen">
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#nav-keen">
                             <button>
                                 A-JAX KEEN
                             </button>
                             </a>
                         </li>
-                        <li><a data-toggle="tab" href="#nav-dazur">
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#nav-dazur">
                             <button>
                                 A-JAX D'azur
                             </button>
                             </a>
                         </li>
-                        <li ><a data-toggle="tab" href="#nav-rjns">
+                        <li ><a class="nav-link" data-toggle="tab" href="#nav-rjns">
                             <button>
                                 Rejeunesse
                             </button>
                             </a>
                         </li>
-                        <li><a data-toggle="tab" href="#nav-xspurt">
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#nav-xspurt">
                             <button>
                                 Xspurt
                             </button>
@@ -222,7 +200,7 @@
                 </div>
                 <!-- A-JAX KEEN TAB -->
                 <div class="tab-content">
-                 <div class="tab-pane fade in active" id="nav-keen">
+                 <div class="tab-pane fade show active" id="nav-keen">
                         <div class="product-list">
                             <h1>Ace,<br> Jubiliation, At elixir</h1>
                             <div class="row">
@@ -491,6 +469,9 @@
     </div>
 
     <script src="/js/custom_page.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 
