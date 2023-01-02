@@ -52,6 +52,27 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
+        
+        
+<script>
+	$(function() {
+		if (location.hash == "#tab01") {
+			$('.nav-tabs').find('li').eq(0).addClass('active').siblings().removeClass();
+			$('.tab-content').find('#tab01').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#tab02") {
+			$('.nav-tabs').find('li').eq(1).addClass('active').siblings().removeClass();
+			$('.tab-content').find('#tab02').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#tab03") {
+			$('.nav-tabs').find('li').eq(2).addClass('active').siblings().removeClass();
+			$('.tab-content').find('#tab03').addClass('active in').siblings().removeClass('active in');
+		} else if (location.hash == "#tab04") {
+			$('.nav-tabs').find('li').eq(3).addClass('active').siblings().removeClass();
+			$('.tab-content').find('#tab04').addClass('active in').siblings().removeClass('active in');
+		}
+	})
+
+	$('html, body').animate({ scrollTop: 0 }, 'fast'); // 페이지 이동후 지정된 #의 시작점으로 이동하기에 이동후 브라우저의 최상단으로 이동하게 처리
+</script>
 
 </head>
 
@@ -436,6 +457,32 @@
                     </div>
                 </div>
             </div>
+            
+            
+            <ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#tab01">탭01</a></li>
+	<li><a data-toggle="tab" href="#tab02">탭02</a></li>
+	<li><a data-toggle="tab" href="#tab03">탭03</a></li>
+	<li><a data-toggle="tab" href="#tab04">탭04</a></li>
+</ul>
+
+<div class="tab-content">
+	<div id="tab01" class="tab-pane fade in active">
+		탭01
+	</div>
+	<div id="tab02" class="tab-pane fade">
+		탭02
+	</div>
+	<div id="tab03" class="tab-pane fade">
+		탭03
+	</div>
+	<div id="tab04" class="tab-pane fade">
+		탭04
+	</div>
+</div>
+
+
+            
         </section>
 
         <!-- FOOTER -->
