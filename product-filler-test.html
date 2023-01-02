@@ -52,6 +52,7 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
      
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
    
    <script>
 	$(function() {
@@ -184,31 +185,38 @@
         <!-- END / NAVIGATION-MO -->
 
         <section>
-           <div class="content-inner">
-           <div id="btn-tabs">
-            <ul class="nav nav-tabs" role="tablist">
-	            <li class="active"><a role="tab" aria-controls="tab01" data-toggle="tab" href="#tab01">탭01</a></li>
-	            <li><a  role="tab" aria-controls="tab02" data-toggle="tab" href="#tab02">탭02</a></li>
-	            <li><a  role="tab" aria-controls="tab03" data-toggle="tab" href="#tab03">탭03</a></li>
-	            <li><a  role="tab" aria-controls="tab04" data-toggle="tab" href="#tab04">탭04</a></li>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Tab</p>
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#qwe">QWE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#asd">ASD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#zxc">ZXC</a>
+              </li>
             </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="qwe">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ornare libero. Vivamus iaculis, justo vel mattis pharetra, nisi ligula varius nisl, sit amet mollis tortor ligula vitae nisi.</p>
+              </div>
+              <div class="tab-pane fade" id="asd">
+                <p>Nunc vitae turpis id nibh sodales commodo et non augue. Proin fringilla ex nunc. Integer tincidunt risus ut facilisis tristique.</p>
+              </div>
+              <div class="tab-pane fade" id="zxc">
+                <p>Curabitur dignissim quis nunc vitae laoreet. Etiam ut mattis leo, vel fermentum tellus. Sed sagittis rhoncus venenatis. Quisque commodo consectetur faucibus. Aenean eget ultricies justo.</p>
+              </div>
             </div>
-
-                <div class="tab-content">
-	                <div id="tab01" class="tab-pane fade in active" role="tabpanel">
-                        <p>1234</p>
-	                </div>
-	                <div id="tab02" class="tab-pane fade" accesskey=""role="tabpanel">
-		                <p>45</p>
-	                </div>
-	                <div id="tab03" class="tab-pane fade" role="tabpanel">
-		                <p>67</p>
-	                </div>
-	                <div id="tab04" class="tab-pane fade" role="tabpanel">
-		                <p>89</p>
-	                </div>
-            </div>
-            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         </section>
 
         <!-- FOOTER -->
