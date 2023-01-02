@@ -36,8 +36,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
         integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-         <!-- Bootstrap -->
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -47,11 +47,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
-        
-        
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -168,39 +164,42 @@
 
         <section>
             <div class="content-inner">
-
                 <!-- BUTTON TABS -->
                 <div id="btn-tabs">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#nav-keen">
-                            <button>
+                    <ul class="nav" id="proTab" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" id="nav-keen-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-keen" type="button" role="tab" aria-controls="keen"
+                                aria-selected="true">
                                 A-JAX KEEN
                             </button>
-                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#nav-dazur">
-                            <button>
+                        <li class="nav-item">
+                            <button class="nav-link" id="nav-dazur-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-dazur" type="button" role="tab" aria-controls="dazur"
+                                aria-selected="false">
                                 A-JAX D'azur
                             </button>
-                            </a>
                         </li>
-                        <li ><a class="nav-link" data-toggle="tab" href="#nav-rjns">
-                            <button>
+                        <li class="nav-item">
+                            <button class="nav-link" id="nav-rjns-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-rjns" type="button" role="tab" aria-controls="rjns"
+                                aria-selected="false">
                                 Rejeunesse
                             </button>
-                            </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#nav-xspurt">
-                            <button>
+                        <li class="nav-item">
+                            <button class="nav-link" id="nav-xspurt-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-xspurt" type="button" role="tab" aria-controls="xspurt"
+                                aria-selected="false">
                                 Xspurt
                             </button>
-                            </a>
                         </li>
                     </ul>
                 </div>
                 <!-- A-JAX KEEN TAB -->
-                <div class="tab-content">
-                 <div class="tab-pane fade show active" id="nav-keen">
+                <div class="tab-content" id="nav-tabContent">
+                 <div class="tab-pane fade show active" id="nav-keen" role="tabpanel" aria-labelledby="nav-keen-tab">
                         <div class="product-list">
                             <h1>Ace,<br> Jubiliation, At elixir</h1>
                             <div class="row">
@@ -260,7 +259,7 @@
                         </div>
                     </div>
                     <!-- A-JAX D'azur TAB -->
-                    <div class="tab-pane fade" id="nav-dazur">
+                    <div class="tab-pane fade" id="nav-dazur" role="tabpanel" aria-labelledby="nav-dazur-tab">
                         <div class="product-list">
                             <h1>Ace,<br> Jubiliation, At elixir</h1>
                             <div class="row">
@@ -287,7 +286,7 @@
                         </div>
                     </div>
                 <!-- REJEUNESSE TAB -->
-                    <div class="tab-pane fade" id="nav-rjns">
+                    <div class="tab-pane fade" id="nav-rjns" role="tabpanel" aria-labelledby="nav-rjns-tab">
                         <div class="product-list">
                             <h1>Innovation of<br> Dermal Rejuvenation</h1>
                             <div class="row">
@@ -371,7 +370,7 @@
                         </div>
                     </div>
                     <!-- xspurt TAB -->
-                    <div class="tab-pane fade" id="nav-xspurt">
+                    <div class="tab-pane fade" id="nav-xspurt" role="tabpanel" aria-labelledby="nav-xspurt-tab">
                         <div class="product-list">
                             <h1>Innovation of<br> Dermal Rejuvenation</h1>
                             <div class="row">
@@ -469,9 +468,6 @@
     </div>
 
     <script src="/js/custom_page.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 
