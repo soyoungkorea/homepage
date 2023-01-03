@@ -6,7 +6,7 @@
 @media (max-width: 1023.9px) {
 
 #btn-tabs .nav-item {
-    width: 100%;
+    width: 48%;
     margin: 0 0.5rem 0.5rem 0;
     flex-wrap: wrap;
 }
