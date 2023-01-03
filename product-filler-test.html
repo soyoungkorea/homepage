@@ -51,8 +51,22 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
+     
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   
+   <script>
+    // Javascript to enable link to tab
+var hash = location.hash.replace(/^#/, '');  // ^ means starting, meaning only match the first hash
+if (hash) {
+    $('.nav-tabs a[href="#' + hash + '"]').tab('show');
+} 
 
-
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function (e) {
+    window.location.hash = e.target.hash;
+})
+</script>
+   
    
 </head>
 
@@ -191,6 +205,9 @@
           </div>
       </div>
     </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
       
         </section>
 
