@@ -54,7 +54,7 @@
      
 <script>
 $(function () {
-      fnGetParameterByName('Test'); // 결과 : 111
+      fnGetParameterByName('Filler'); // 결과 : 111
 });
  
 
@@ -68,6 +68,9 @@ function fnGetParameterByName(name) {
       }
     else if(result[1] == "3"){
        $("#nav-rjns-tab").trigger("click");
+      }
+    else if(result[1] == "4"){
+       $("#nav-xspurt-tab").trigger("click");
       }
 } 
 </script>
