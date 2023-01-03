@@ -53,17 +53,10 @@
         crossorigin="anonymous"></script>
      
    <script>
-    // Javascript to enable link to tab
-var hash = location.hash.replace(/^#/, '');  // ^ means starting, meaning only match the first hash
-if (hash) {
-    $('.nav-tabs button[href="#' + hash + '"]').tab('show');
-} 
-
-// Change hash for page-reload
-$('.nav-tabs button').on('shown.bs.tab', function (e) {
-    window.location.hash = e.target.hash;
-})
-    
+    console.log(location.hash);
+$('.tab_menu ul li').removeClass('current');
+$('.tab-content').removeClass('current');
+$(location.hash).addClass('current');
     </script>
    
    
