@@ -3,8 +3,7 @@
 
 /* BUTTON TABS */
 
-@media (min-width: 320px) and (max-width: 374.9px),
-(min-width: 375px) and (max-width: 767.9px) {
+@media (max-width: 1023.9px) {
 
 #btn-tabs .nav-item {
     width: 100%;
