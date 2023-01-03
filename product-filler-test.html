@@ -56,6 +56,20 @@
    
    
    
+      <script>
+   // Javascript to enable link to tab
+var url = document.location.toString();
+if (url.match('#')) {
+    $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show');
+}
+
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function (e) {
+    window.location.hash = e.target.hash;
+})
+    </script>
+   
+   
 </head>
 
 
@@ -172,28 +186,22 @@
         <div class="col">
           <p>Tab</p>
             <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#qwe">QWE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#asd">ASD</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#zxc">ZXC</a>
-              </li>
-            </ul>
+        <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+        <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+        <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+      </ul>
            </div>
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="qwe">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ornare libero. Vivamus iaculis, justo vel mattis pharetra, nisi ligula varius nisl, sit amet mollis tortor ligula vitae nisi.</p>
-              </div>
-              <div class="tab-pane fade" id="asd">
-                <p>Nunc vitae turpis id nibh sodales commodo et non augue. Proin fringilla ex nunc. Integer tincidunt risus ut facilisis tristique.</p>
-              </div>
-              <div class="tab-pane fade" id="zxc">
-                <p>Curabitur dignissim quis nunc vitae laoreet. Etiam ut mattis leo, vel fermentum tellus. Sed sagittis rhoncus venenatis. Quisque commodo consectetur faucibus. Aenean eget ultricies justo.</p>
-              </div>
-            </div>
+                  <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+          <p>I'm in Section 1.</p>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <p>I'm in Section 2.</p>
+        </div>
+        <div class="tab-pane" id="tab3">
+          <p>I'm in Section 3.</p>
+        </div>
+      </div>
         </div>
       </div>
     </div>
