@@ -34,7 +34,6 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
 /* BUTTON TABS */
 #btn-tabs {
     margin-top: 8rem;
@@ -65,7 +64,7 @@
     padding: 0.5rem 0;
     width: 100%;
 }
-}
+
 
 #btn-tabs .nav-link.active {
     color: #fff;
