@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
+@media (min-width: 320px) and (max-width: 374.9px),
+(min-width: 375px) and (max-width: 767.9px) {
+#btn-tabs {
+    margin-top: 8rem;
+    margin-bottom: 7rem;
+}
+
+#btn-tabs .nav-item {
+    width: 100%;
+    margin: 0 0.5rem 0.5rem 0;
+    flex-wrap: wrap;
+}
+
+#btn-tabs .nav-item:first-child {
+    padding-left: 0;
+}
+
+#btn-tabs .nav-item:last-child {
+    padding-right: 0;
+}
+
+#btn-tabs .nav-link {
+    font-size: 2rem;
+    color: #747474;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
 /* BUTTON TABS */
 #btn-tabs {
     margin-top: 8rem;
@@ -29,6 +64,7 @@
     border: 1px solid #ddd;
     padding: 0.5rem 0;
     width: 100%;
+}
 }
 
 #btn-tabs .nav-link.active {
