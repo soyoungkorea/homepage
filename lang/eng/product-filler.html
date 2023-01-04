@@ -53,6 +53,32 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
 
+<script>
+$(function () {
+      fnGetParameterByName('Filler'); // 결과 : 111
+});
+ 
+
+
+//name이라는 이름을 가진 파라미터값 찾기
+function fnGetParameterByName(name) {
+      var param = location.search;
+        var result = param.split('=');
+      if(result[1] == "2"){
+       $("#nav-dazur-tab").trigger("click");
+      }
+    else if(result[1] == "3"){
+       $("#nav-rjns-tab").trigger("click");
+      }
+    else if(result[1] == "4"){
+       $("#nav-xspurt-tab").trigger("click");
+      }
+} 
+</script>
+
+
+
+
 </head>
 
 
