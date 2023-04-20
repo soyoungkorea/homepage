@@ -297,6 +297,18 @@
         url('/image/slide_02.png') center center / cover no-repeat;
 }
 
+#carousel .slide-03 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+        url('/image/slide_03.png') center center / cover no-repeat;
+}
+
+#carousel .slide-04 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+        url('/image/slide_04.png') center center / cover no-repeat;
+}
+
+
+
 #carousel .carousel-button {
     background-color: transparent;
     padding: 0.75rem 1.5rem;
