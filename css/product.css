@@ -4,14 +4,12 @@
 /* BUTTON TABS */
 
 
-
-@media (min-width: 1024px) {
 #btn-tabs .nav-item {
     width: 49%;
     margin: 0 0.5rem 0.5rem 0;
     flex-wrap: wrap;
 }
-}
+
 
 #btn-tabs {
     margin-top: 8rem;
