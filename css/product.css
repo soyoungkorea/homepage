@@ -9,19 +9,8 @@
     width: 49%;
     margin: 0 0.5rem 0.5rem 0;
     flex-wrap: wrap;
+    font-size: 2.5rem;
 }
-    
-#btn-tabs .nav-link {
-    font-size: 5rem;
-    color: #747474;
-    border-radius: 0.5rem;
-    background-color: transparent;
-    border: 1px solid #ddd;
-    padding: 0.5rem 0;
-    width: 100%;
-}    
-    
-    
 }
 
 @media (min-width: 1024px) {
