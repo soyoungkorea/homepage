@@ -307,7 +307,10 @@
         url('/image/slide_04.png') center center / cover no-repeat;
 }
 
-
+#carousel .slide-05 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+        url('/image/slide_05.png') center center / cover no-repeat;
+}
 
 #carousel .carousel-button {
     background-color: transparent;
