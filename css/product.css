@@ -7,11 +7,11 @@
 
 #btn-tabs .nav-item {
     width: 100%;
-
+    margin: 0 0.5rem 0.5rem 0;
+    flex-wrap: wrap;
 }
 #btn-tabs .nav-link {
     font-size: 5rem;
-
 }   
 }
 
