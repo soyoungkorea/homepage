@@ -35,7 +35,7 @@
     }
 
     #btn-tabs .nav-link.active {
-        border-radius: 0.25rem;
+        border-radius: 0.5rem;
     }
 
     .modal-body img {
