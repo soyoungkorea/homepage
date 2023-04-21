@@ -8,8 +8,8 @@
     }
 
     #nav-tabs .nav-item .nav-link {
-        font-size: 1rem;
-        padding: 1rem 0;
+        font-size: 0.875rem;
+        padding: 0;
     }
 
     /* CONTENT CONTAINER */
@@ -29,9 +29,9 @@
     }
 
     #btn-tabs .nav-link {
-        font-size: 0.5rem;
-        border-radius: 0.25rem;
-        padding: 0.5rem 0;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        padding: 1rem 0;
     }
 
     #btn-tabs .nav-link.active {
