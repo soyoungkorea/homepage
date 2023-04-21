@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 #btn-tabs .nav-link {
-    font-size: 10rem;
+    font-size: 30rem;
     color: #747474;
     border-radius: 0.5rem;
     background-color: transparent;
@@ -44,7 +44,7 @@
 }
 
 #btn-tabs .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #747474;
     border-radius: 0.5rem;
     background-color: transparent;
