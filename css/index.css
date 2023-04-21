@@ -388,6 +388,7 @@ section h1 {
     height: fit-content;
     width: fit-content;
     width: 100%;
+    margin-bottom: 20rem;
 }
 
 #brandCarousel::-webkit-scrollbar {
