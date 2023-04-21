@@ -6,14 +6,14 @@
         margin-top: 6rem;
         margin-bottom: 2rem;
     }
-    #btn-tabs .nav-item:first-child {
-    padding-left: 0;
-    }
-
-    #btn-tabs .nav-item:last-child {
+    #btn-tabs .nav-item:second-child {
     padding-right: 0;
     }
 
+    #btn-tabs .nav-item:third-child {
+    padding-left: 0;
+    }
+    
     #btn-tabs .nav-item {
         padding: 0 0.125rem;
     }
@@ -97,12 +97,12 @@
         margin-bottom: 4rem;
     }
     
-    #btn-tabs .nav-item:first-child {
-    padding-left: 0;
+    #btn-tabs .nav-item:second-child {
+    padding-right: 0;
     }
 
-    #btn-tabs .nav-item:last-child {
-    padding-right: 0;
+    #btn-tabs .nav-item:third-child {
+    padding-left: 0;
     }
 
     #btn-tabs .nav-item {
@@ -187,12 +187,13 @@
         margin-top: 9rem;
         margin-bottom: 5rem;
     }
-    #btn-tabs .nav-item:first-child {
-    padding-left: 0;
+    
+    #btn-tabs .nav-item:second-child {
+    padding-right: 0;
     }
 
-    #btn-tabs .nav-item:last-child {
-    padding-right: 0;
+    #btn-tabs .nav-item:third-child {
+    padding-left: 0;
     }
 
     #btn-tabs .nav-item {
