@@ -85,7 +85,7 @@ function dragSlide__init() {
 
     var dragPosition = parseInt($this.css("left"));
     slideDuration = parseInt($slide.attr('data-slide-duration'));
-    var slideLimit = $this.find(" > .carousel-img").length - 1;
+    var slideLimit = $this.find(" > .carousel-item").length - 1;
     
     //drag reset
     $this.stop().animate({ left: 0 }, {duration: slideDuration, complete: function(){
