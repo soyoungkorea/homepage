@@ -297,27 +297,27 @@
     padding-top: calc(1080 / 1920 * 70%);
 }
 
-#carousel .slide-01 {
+.carousel-item:nth-child(3n + 1) #carousel .slide-01 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_01.png') center center / cover no-repeat;
 }
 
-#carousel .slide-02 {
+.carousel-item:nth-child(3n + 2) #carousel .slide-02 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_02.png') center center / cover no-repeat;
 }
 
-#carousel .slide-03 {
+.carousel-item:nth-child(3n + 3) #carousel .slide-03 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_03.png') center center / cover no-repeat;
 }
 
-#carousel .slide-04 {
+.carousel-item:nth-child(3n + 4) #carousel .slide-04 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_04.png') center center / cover no-repeat;
 }
 
-#carousel .slide-05 {
+.carousel-item:nth-child(3n) #carousel .slide-05 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_05.png') center center / cover no-repeat;
 }
