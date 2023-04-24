@@ -43,7 +43,7 @@ $(document).ready(function () {
 });
 
 if (Modernizr.touch) {
-  $(".carousel").swipe({
+  $("#carousel").swipe({
     swipe: function(
       event,
       direction,
