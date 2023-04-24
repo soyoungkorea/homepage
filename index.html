@@ -53,12 +53,22 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
         
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>    
+       
+        <script>
+	$(".carousel").swipe({
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
 
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  	},
+  	allowPageScroll:"vertical"
+
+	});
+</script>    
+        
 
 </head>
 
