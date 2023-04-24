@@ -269,15 +269,6 @@
 /* CAROUSEL-SLIDE */
 
 
-#myCarousel {
-  display: flex;
-  width: fit-content;
-}
-
-.myCarousel-transition {
-  transition: 0.6s ease-out;
-}
-
 #carousel .carousel-text h1 {
     font-size: 3rem;
     font-weight: bold;
