@@ -267,16 +267,6 @@
 
 
 /* CAROUSEL-SLIDE */
-
-#carousel-list {
-  display: flex;
-  width: fit-content;
-}
-
-.carousel-list-transition {
-  transition: 0.6s ease-out;
-}
-
 #carousel .carousel-text h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -297,27 +287,27 @@
     padding-top: calc(1080 / 1920 * 70%);
 }
 
-.carousel-item:nth-child(3n + 1)  {
+#carousel .slide-01 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_01.png') center center / cover no-repeat;
 }
 
-.carousel-item:nth-child(3n + 2)  {
+#carousel .slide-02 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_02.png') center center / cover no-repeat;
 }
 
-.carousel-item:nth-child(3n + 3)  {
+#carousel .slide-03 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_03.png') center center / cover no-repeat;
 }
 
-.carousel-item:nth-child(3n + 4)  {
+#carousel .slide-04 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_04.png') center center / cover no-repeat;
 }
 
-.carousel-item:nth-child(3n)  {
+#carousel .slide-05 {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
         url('/image/slide_05.png') center center / cover no-repeat;
 }
@@ -484,5 +474,3 @@ section h1 {
     background-color: #005cb9 !important;
     box-shadow: 5px -1px 12px -5px black !important;
 }
-
-
