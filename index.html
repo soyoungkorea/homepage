@@ -53,22 +53,22 @@
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
         
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>    
-       
-        <script>
-	$(".carousel").swipe({
         
-    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-
-    if (direction == 'left') $(this).carousel('next');
-    if (direction == 'right') $(this).carousel('prev');
-
-  	},
-  	allowPageScroll:"vertical"
-
-	});
-</script>    
-        
+        <script text="text/javascript">
+jQuery(document).ready(function(){
+jQuery('.carousel').swipe({
+swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+if(direction == 'left'){
+jQuery(this).carousel('next'); 
+}
+if(direction == 'right'){
+jQuery(this).carousel('prev'); 
+}
+},
+allowPageScroll:"vertical"
+});
+});
+</script>
 
 </head>
 
