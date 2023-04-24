@@ -474,3 +474,10 @@ section h1 {
     background-color: #005cb9 !important;
     box-shadow: 5px -1px 12px -5px black !important;
 }
+
+
+.carousel-inner > .carousel-item{
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
