@@ -407,9 +407,23 @@
     <script src="/js/custom.js"></script>
     
     <script>
-        $( document ).on( "mousemove", function( event ) {
-        $( "#brandCarousel" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+       var x,left,down;
+
+        $("#brandCarousel").mousedown(function(e){
+        e.preventDefault();
+        down = true;
+        x = e.pageX;
+        left = $(this).scrollLeft();
         });
+
+        $("body").mousemove(function(e){
+        if(down){
+        var newX = e.pageX;
+        $("#brandCarousel").scrollLeft(left - newX + x);
+        }
+        });
+
+        $("body").mouseup(function(e){down = false;});
     </script>
 
 
