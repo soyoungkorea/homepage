@@ -392,12 +392,12 @@ section h1 {
 }
 
 #brandCarousel::-webkit-scrollbar {
-    height: 10px;
+    height: 5px;
 }
 
 
 #brandCarousel::-webkit-scrollbar-thumb {
-    background-color: #d2d2d2;
+    background-color: #000;
     border-radius: 100px;
 }
 
