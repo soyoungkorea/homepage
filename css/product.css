@@ -168,12 +168,12 @@
 }
 
 /* COSMETIC IMAGE */
-.img-cellnoc-cart {
+.img-cellnoc-toner-cart {
     background: url('/image/cellnoc_cart.png') center center / cover no-repeat;
     display: none;position: absolute;
 }
 
-.img-cellnoc-toner:hover .img-cellnoc-cart {
+.img-cellnoc-toner:hover .img-cellnoc-toner-cart {
         display: inline;
     }
 
