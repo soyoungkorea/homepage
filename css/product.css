@@ -168,16 +168,28 @@
 }
 
 /* COSMETIC IMAGE */
+.img-cellnoc-cart {
+    background: url('/image/cellnoc_cart.png') center center / cover no-repeat;
+    display: none;position: absolute;
+}
+
+.img-cellnoc-toner:hover .img-cellnoc-cart {
+        display: inline;
+    }
+
 .img-cellnoc-toner {
     background: url('/image/cellnoc_01.png') center center / cover no-repeat;
+    position: relative;
 }
 
 .img-cellnoc-ampoule {
     background: url('/image/cellnoc_02.png') center center / cover no-repeat;
+    position: relative;
 }
 
 .img-cellnoc-cream {
     background: url('/image/cellnoc_03.png') center center / cover no-repeat;
+    position: relative;
 }
 
 /* BOOSTER IMAGE */
