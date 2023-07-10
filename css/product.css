@@ -172,7 +172,7 @@
     display: none;position: absolute;
 }
 
-#cellnoc_product:hover img {
+.img:hover img {
         display: block;
     }
 
