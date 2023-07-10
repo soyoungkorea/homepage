@@ -169,7 +169,7 @@
 
 /* COSMETIC IMAGE */
 .img img {
-    display: none;position: absolute;
+    display: none;position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%;
 }
 
 .img:hover img {
