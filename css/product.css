@@ -168,13 +168,12 @@
 }
 
 /* COSMETIC IMAGE */
-.img-cellnoc-toner-cart {
-    background: url('/image/cellnoc_cart.png') center center / cover no-repeat;
+.img-cellnoc-cart {
     display: none;position: absolute;
 }
 
-.img-cellnoc-toner:hover .img-cellnoc-toner-cart {
-        display: inline;
+#cellnoc_product:hover img {
+        display: block;
     }
 
 .img-cellnoc-toner {
@@ -186,6 +185,7 @@
     background: url('/image/cellnoc_02.png') center center / cover no-repeat;
     position: relative;
 }
+
 
 .img-cellnoc-cream {
     background: url('/image/cellnoc_03.png') center center / cover no-repeat;
